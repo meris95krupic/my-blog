@@ -1,0 +1,72 @@
+[2021-08-21T21:57:02.649] [INFO] default - /login started (username: test)
+[2021-08-21T21:57:02.793] [INFO] default - /login finished successfully.
+[2021-08-21T21:57:13.873] [INFO] default - /login started (username: test)
+[2021-08-21T21:57:13.993] [ERROR] default - /login ERROR: Wrong credentials!
+[2021-08-21T21:57:20.119] [INFO] default - /login started (username: test)
+[2021-08-21T21:57:20.235] [INFO] default - /login finished successfully.
+[2021-08-21T21:58:20.174] [INFO] default - /register started (username: mnm, email: mnm@test.com)
+[2021-08-21T21:58:20.330] [INFO] default - /register finished successfully.
+[2021-08-21T21:58:46.407] [INFO] default - /register started (username: asd, email: )
+[2021-08-21T21:58:46.503] [ERROR] default - /login ERROR: { Error: User validation failed: email: Path `email` is required.
+    at ValidationError.inspect (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/my-blog/api/node_modules/mongoose/lib/error/validation.js:47:26)
+    at formatValue (internal/util/inspect.js:491:31)
+    at inspect (internal/util/inspect.js:189:10)
+    at formatWithOptions (util.js:164:18)
+    at Object.format (util.js:72:10)
+    at basicLayout (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/my-blog/api/node_modules/log4js/lib/layouts.js:62:57)
+    at app (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/my-blog/api/node_modules/log4js/lib/appenders/file.js:64:23)
+    at categoryAppenders.forEach.appender (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/my-blog/api/node_modules/log4js/lib/log4js.js:42:5)
+    at Array.forEach (<anonymous>)
+    at sendLogEventToAppender (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/my-blog/api/node_modules/log4js/lib/log4js.js:41:21)
+    at listeners.forEach.l (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/my-blog/api/node_modules/log4js/lib/clustering.js:23:26)
+    at Array.forEach (<anonymous>)
+    at sendToListeners (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/my-blog/api/node_modules/log4js/lib/clustering.js:23:13)
+    at Object.send (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/my-blog/api/node_modules/log4js/lib/clustering.js:89:7)
+    at Logger._log (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/my-blog/api/node_modules/log4js/lib/logger.js:90:16)
+    at Logger.log (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/my-blog/api/node_modules/log4js/lib/logger.js:73:12)
+  errors:
+   { email:
+      { ValidatorError: Path `email` is required.
+          at validate (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/my-blog/api/node_modules/mongoose/lib/schematype.js:1270:13)
+          at /home/meris/Documents/PI-Master/Master-Arbeit/tmp/my-blog/api/node_modules/mongoose/lib/schematype.js:1253:7
+          at Array.forEach (<anonymous>)
+          at SchemaString.SchemaType.doValidate (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/my-blog/api/node_modules/mongoose/lib/schematype.js:1198:14)
+          at /home/meris/Documents/PI-Master/Master-Arbeit/tmp/my-blog/api/node_modules/mongoose/lib/document.js:2542:18
+          at process._tickCallback (internal/process/next_tick.js:61:11)
+        properties: [Object],
+        kind: 'required',
+        path: 'email',
+        value: '',
+        reason: undefined,
+        [Symbol(mongoose:validatorError)]: true } },
+  _message: 'User validation failed' }
+[2021-08-21T21:58:59.420] [INFO] default - /login started (username: test)
+[2021-08-21T21:58:59.542] [INFO] default - /login finished successfully.
+[2021-08-21T21:59:51.917] [INFO] default - /login started (username: test)
+[2021-08-21T21:59:52.053] [INFO] default - /login finished successfully.
+[2021-08-21T23:24:28.445] [INFO] default - POST /posts started.
+[2021-08-21T23:24:28.499] [INFO] default - POST /posts finished successfully (NaN
+[2021-08-21T23:24:29.155] [INFO] default - GET /categories started.
+[2021-08-21T23:24:29.186] [INFO] default - GET /categories finished successfully.
+[2021-08-21T23:26:29.775] [INFO] default - GET /categories started.
+[2021-08-21T23:26:29.804] [INFO] default - GET /categories finished successfully.
+[2021-08-21T23:26:37.752] [INFO] default - POST /posts started.
+[2021-08-21T23:26:37.784] [INFO] default - POST /posts finished successfully (savedPost.title: trtr)
+[2021-08-21T23:26:38.348] [INFO] default - GET /categories started.
+[2021-08-21T23:26:38.376] [INFO] default - GET /categories finished successfully.
+[2021-08-21T23:29:26.787] [INFO] default - GET /categories started.
+[2021-08-21T23:29:26.815] [INFO] default - GET /categories finished successfully.
+[2021-08-21T23:41:52.809] [INFO] default - GET /categories started.
+[2021-08-21T23:41:52.831] [INFO] default - GET /posts started.
+[2021-08-21T23:41:52.854] [INFO] default - GET /categories finished successfully.
+[2021-08-21T23:41:52.864] [INFO] default - GET /posts finished successfully.
+[2021-08-21T23:42:00.801] [INFO] default - GET /posts/:id started.
+[2021-08-21T23:42:00.815] [INFO] default - GET /categories started.
+[2021-08-21T23:42:00.835] [INFO] default - GET /categories finished successfully.
+[2021-08-21T23:42:00.839] [INFO] default - GET /posts/:id finished successfully (id: 60fc87c9ab0f5d48f9ef3fef)
+[2021-08-21T23:42:08.967] [INFO] default - PUT /posts/:id started.
+[2021-08-21T23:42:09.025] [INFO] default - PUT /posts/:id finished successfully (updatedPost.title: Test_)
+[2021-08-21T23:42:14.919] [INFO] default - GET /categories started.
+[2021-08-21T23:42:14.923] [INFO] default - GET /posts started.
+[2021-08-21T23:42:14.943] [INFO] default - GET /categories finished successfully.
+[2021-08-21T23:42:14.947] [INFO] default - GET /posts finished successfully.
