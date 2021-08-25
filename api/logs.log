@@ -5577,3 +5577,1550 @@
 [2021-08-23T22:27:02.170] [INFO] default - GET /posts started.
 [2021-08-23T22:27:02.195] [INFO] default - GET /categories finished successfully.
 [2021-08-23T22:27:02.197] [INFO] default - GET /posts finished successfully.
+[2021-08-23T22:30:36.903] [INFO] default - POST /login started (username: test)
+[2021-08-23T22:30:37.024] [INFO] default - POST /login finished successfully.
+[2021-08-23T22:30:37.211] [INFO] default - GET /categories started.
+[2021-08-23T22:30:37.235] [INFO] default - GET /categories finished successfully.
+[2021-08-23T22:30:37.254] [INFO] default - GET /posts started.
+[2021-08-23T22:30:37.288] [INFO] default - GET /posts finished successfully.
+[2021-08-23T22:30:38.702] [INFO] default - POST /posts started.
+[2021-08-23T22:30:38.734] [INFO] default - POST /posts finished successfully (savedPost.title: test-abc)
+[2021-08-23T22:30:39.142] [INFO] default - GET /posts/:id started.
+[2021-08-23T22:30:39.155] [INFO] default - GET /categories started.
+[2021-08-23T22:30:39.163] [INFO] default - GET /posts/:id finished successfully (id: 6124056ed9dac051821fcd38)
+[2021-08-23T22:30:39.175] [INFO] default - GET /categories finished successfully.
+[2021-08-23T22:30:40.352] [INFO] default - POST /login started (username: test)
+[2021-08-23T22:30:40.474] [INFO] default - POST /login finished successfully.
+[2021-08-23T22:30:40.777] [INFO] default - POST /posts started.
+[2021-08-23T22:30:40.779] [ERROR] default - POST /posts ERROR: { Error: Post validation failed: desc: Path `desc` is required.
+    at ValidationError.inspect (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/mongoose/lib/error/validation.js:47:26)
+    at formatValue (internal/util/inspect.js:491:31)
+    at inspect (internal/util/inspect.js:189:10)
+    at formatWithOptions (util.js:164:18)
+    at Object.format (util.js:72:10)
+    at basicLayout (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/log4js/lib/layouts.js:62:57)
+    at app (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/log4js/lib/appenders/file.js:64:23)
+    at categoryAppenders.forEach.appender (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/log4js/lib/log4js.js:42:5)
+    at Array.forEach (<anonymous>)
+    at sendLogEventToAppender (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/log4js/lib/log4js.js:41:21)
+    at listeners.forEach.l (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/log4js/lib/clustering.js:23:26)
+    at Array.forEach (<anonymous>)
+    at sendToListeners (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/log4js/lib/clustering.js:23:13)
+    at Object.send (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/log4js/lib/clustering.js:89:7)
+    at Logger._log (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/log4js/lib/logger.js:90:16)
+    at Logger.log (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/log4js/lib/logger.js:73:12)
+  errors:
+   { desc:
+      { ValidatorError: Path `desc` is required.
+          at validate (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/mongoose/lib/schematype.js:1270:13)
+          at /home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/mongoose/lib/schematype.js:1253:7
+          at Array.forEach (<anonymous>)
+          at SchemaString.SchemaType.doValidate (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/mongoose/lib/schematype.js:1198:14)
+          at /home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/mongoose/lib/document.js:2542:18
+          at process._tickCallback (internal/process/next_tick.js:61:11)
+        properties: [Object],
+        kind: 'required',
+        path: 'desc',
+        value: '',
+        reason: undefined,
+        [Symbol(mongoose:validatorError)]: true } },
+  _message: 'Post validation failed' }
+[2021-08-23T22:30:42.366] [INFO] default - POST /login started (username: test)
+[2021-08-23T22:30:42.485] [INFO] default - POST /login finished successfully.
+[2021-08-23T22:30:42.547] [INFO] default - GET /categories started.
+[2021-08-23T22:30:42.568] [INFO] default - GET /categories finished successfully.
+[2021-08-23T22:30:42.592] [INFO] default - GET /posts started.
+[2021-08-23T22:30:42.617] [INFO] default - GET /posts finished successfully.
+[2021-08-23T22:30:44.293] [INFO] default - GET /posts/:id started.
+[2021-08-23T22:30:44.314] [INFO] default - GET /posts/:id finished successfully (id: 6124056ed9dac051821fcd38)
+[2021-08-23T22:30:44.315] [INFO] default - GET /categories started.
+[2021-08-23T22:30:44.339] [INFO] default - GET /categories finished successfully.
+[2021-08-23T22:30:46.468] [INFO] default - PUT /posts/:id started.
+[2021-08-23T22:30:46.516] [INFO] default - PUT /posts/:id finished successfully (updatedPost.title: test-abc)
+[2021-08-23T22:30:46.690] [INFO] default - GET /categories started.
+[2021-08-23T22:30:46.702] [INFO] default - GET /posts started.
+[2021-08-23T22:30:46.710] [INFO] default - GET /categories finished successfully.
+[2021-08-23T22:30:46.728] [INFO] default - GET /posts finished successfully.
+[2021-08-23T22:30:48.513] [INFO] default - POST /login started (username: test)
+[2021-08-23T22:30:48.638] [INFO] default - POST /login finished successfully.
+[2021-08-23T22:30:48.682] [INFO] default - GET /categories started.
+[2021-08-23T22:30:48.706] [INFO] default - GET /categories finished successfully.
+[2021-08-23T22:30:48.712] [INFO] default - GET /posts started.
+[2021-08-23T22:30:48.741] [INFO] default - GET /posts finished successfully.
+[2021-08-23T22:30:48.968] [INFO] default - GET /posts/:id started.
+[2021-08-23T22:30:48.986] [INFO] default - GET /categories started.
+[2021-08-23T22:30:48.996] [INFO] default - GET /posts/:id finished successfully (id: 6124056ed9dac051821fcd38)
+[2021-08-23T22:30:49.014] [INFO] default - GET /categories finished successfully.
+[2021-08-23T22:30:49.125] [INFO] default - DELETE /posts/:id started.
+[2021-08-23T22:30:49.176] [INFO] default - DELETE /posts/:id finished successfully (id: 6124056ed9dac051821fcd38)
+[2021-08-23T22:30:49.384] [INFO] default - GET /categories started.
+[2021-08-23T22:30:49.407] [INFO] default - GET /categories finished successfully.
+[2021-08-23T22:30:49.460] [INFO] default - GET /posts started.
+[2021-08-23T22:30:49.489] [INFO] default - GET /posts finished successfully.
+[2021-08-24T08:52:04.183] [INFO] default - POST /login started (username: test)
+[2021-08-24T08:52:04.203] [INFO] default - PUT /users/:id started.
+[2021-08-24T08:52:04.231] [INFO] default - POST /posts started.
+[2021-08-24T08:52:04.281] [ERROR] default - POST /posts ERROR: { MongoError: E11000 duplicate key error collection: blog.posts index: title_1 dup key: { title: "t123" }
+    at Function.create (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/mongodb/lib/core/error.js:57:12)
+    at toError (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/mongodb/lib/utils.js:130:22)
+    at coll.s.topology.insert (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/mongodb/lib/operations/common_functions.js:258:39)
+    at handler (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/mongodb/lib/core/sdam/topology.js:943:24)
+    at fn (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/mongodb/lib/cmap/connection_pool.js:350:13)
+    at handleOperationResult (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/mongodb/lib/core/sdam/server.js:558:5)
+    at MessageStream.messageHandler (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/mongodb/lib/cmap/connection.js:281:5)
+    at MessageStream.emit (events.js:198:13)
+    at processIncomingData (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/mongodb/lib/cmap/message_stream.js:144:12)
+    at MessageStream._write (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/mongodb/lib/cmap/message_stream.js:42:5)
+    at doWrite (_stream_writable.js:415:12)
+    at writeOrBuffer (_stream_writable.js:399:5)
+    at MessageStream.Writable.write (_stream_writable.js:299:11)
+    at TLSSocket.ondata (_stream_readable.js:709:20)
+    at TLSSocket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+  driver: true,
+  name: 'MongoError',
+  index: 0,
+  code: 11000,
+  keyPattern: { title: 1 },
+  keyValue: { title: 't123' } }
+[2021-08-24T08:52:04.308] [INFO] default - PUT /posts/:id started.
+[2021-08-24T08:52:04.348] [INFO] default - POST /login finished successfully.
+[2021-08-24T08:52:04.362] [INFO] default - POST /login started (username: test)
+[2021-08-24T08:52:04.366] [INFO] default - PUT /users/:id finished successfully (updatedUser: { profilePic: '1629668997536fall-autumn-red-season.jpg',
+  _id: 60fc871fab0f5d48f9ef3fe8,
+  username: 'test123',
+  email: 'test123@test.com',
+  password:
+   '$2b$10$cdU.R7MPwAgPykeYSZiPZ.Z5.Z24bapHc1SqFgzpfKXHdNkE3OP/e',
+  createdAt: 2021-07-24T21:33:19.697Z,
+  updatedAt: 2021-08-24T06:52:04.320Z,
+  __v: 0 })
+[2021-08-24T08:52:04.372] [INFO] default - PUT /posts/:id finished successfully (updatedPost.title: Test-123)
+[2021-08-24T08:52:04.378] [INFO] default - DELETE /posts/:id started.
+[2021-08-24T08:52:04.380] [ERROR] default - DELETE /posts/:id ERROR: { CastError: Cast to ObjectId failed for value "123123123" (type string) at path "_id" for model "Post"
+    at model.Query.exec (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/mongoose/lib/query.js:4498:21)
+    at model.Query.Query.then (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/mongoose/lib/query.js:4592:15)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+  messageFormat: undefined,
+  stringValue: '"123123123"',
+  kind: 'ObjectId',
+  value: '123123123',
+  path: '_id',
+  reason:
+   Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters
+       at new ObjectID (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/bson/lib/bson/objectid.js:59:11)
+       at castObjectId (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/mongoose/lib/cast/objectid.js:25:12)
+       at ObjectId.cast (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/mongoose/lib/schema/objectid.js:245:12)
+       at ObjectId.SchemaType.applySetters (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/mongoose/lib/schematype.js:1123:12)
+       at ObjectId.SchemaType._castForQuery (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/mongoose/lib/schematype.js:1601:15)
+       at ObjectId.SchemaType.castForQuery (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/mongoose/lib/schematype.js:1591:15)
+       at ObjectId.SchemaType.castForQueryWrapper (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/mongoose/lib/schematype.js:1568:20)
+       at cast (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/mongoose/lib/cast.js:331:32)
+       at model.Query.Query.cast (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/mongoose/lib/query.js:4937:12)
+       at model.Query.Query._castConditions (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/mongoose/lib/query.js:1975:10)
+       at model.Query.<anonymous> (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/mongoose/lib/query.js:2232:8)
+       at model.Query._wrappedThunk [as _findOne] (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/mongoose/lib/helpers/query/wrapThunk.js:16:8)
+       at process.nextTick (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/kareem/index.js:370:33)
+       at process._tickCallback (internal/process/next_tick.js:61:11),
+  valueType: 'string' }
+[2021-08-24T08:52:04.384] [INFO] default - GET /posts/:id started.
+[2021-08-24T08:52:04.386] [INFO] default - DELETE /users/:id started.
+[2021-08-24T08:52:04.387] [ERROR] default - DELETE /users/:id ERROR: You can delete only your account!
+[2021-08-24T08:52:04.393] [INFO] default - GET /users/:id started.
+[2021-08-24T08:52:04.412] [INFO] default - GET /posts/:id finished successfully (id: 60fc87c9ab0f5d48f9ef3fef)
+[2021-08-24T08:52:04.416] [INFO] default - GET /posts started.
+[2021-08-24T08:52:04.422] [INFO] default - GET /users/:id finished successfully (id: 6122bde1e0af9377ef519ed5)
+[2021-08-24T08:52:04.443] [INFO] default - GET /posts finished successfully.
+[2021-08-24T08:52:04.490] [ERROR] default - POST /login ERROR: Wrong credentials!
+[2021-08-24T08:52:04.499] [INFO] default - POST /register started (username: testABC, email: )
+[2021-08-24T08:52:04.542] [INFO] default - GET /categories started.
+[2021-08-24T08:52:04.571] [INFO] default - GET /categories finished successfully.
+[2021-08-24T08:52:04.611] [ERROR] default - POST /register ERROR: { Error: User validation failed: email: Path `email` is required.
+    at ValidationError.inspect (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/mongoose/lib/error/validation.js:47:26)
+    at formatValue (internal/util/inspect.js:491:31)
+    at inspect (internal/util/inspect.js:189:10)
+    at formatWithOptions (util.js:164:18)
+    at Object.format (util.js:72:10)
+    at basicLayout (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/log4js/lib/layouts.js:62:57)
+    at app (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/log4js/lib/appenders/file.js:64:23)
+    at categoryAppenders.forEach.appender (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/log4js/lib/log4js.js:42:5)
+    at Array.forEach (<anonymous>)
+    at sendLogEventToAppender (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/log4js/lib/log4js.js:41:21)
+    at listeners.forEach.l (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/log4js/lib/clustering.js:23:26)
+    at Array.forEach (<anonymous>)
+    at sendToListeners (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/log4js/lib/clustering.js:23:13)
+    at Object.send (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/log4js/lib/clustering.js:89:7)
+    at Logger._log (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/log4js/lib/logger.js:90:16)
+    at Logger.log (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/log4js/lib/logger.js:73:12)
+  errors:
+   { email:
+      { ValidatorError: Path `email` is required.
+          at validate (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/mongoose/lib/schematype.js:1270:13)
+          at /home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/mongoose/lib/schematype.js:1253:7
+          at Array.forEach (<anonymous>)
+          at SchemaString.SchemaType.doValidate (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/mongoose/lib/schematype.js:1198:14)
+          at /home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/mongoose/lib/document.js:2542:18
+          at process._tickCallback (internal/process/next_tick.js:61:11)
+        properties: [Object],
+        kind: 'required',
+        path: 'email',
+        value: '',
+        reason: undefined,
+        [Symbol(mongoose:validatorError)]: true } },
+  _message: 'User validation failed' }
+[2021-08-24T09:07:51.354] [INFO] default - PUT /users/:id started.
+[2021-08-24T09:07:51.461] [INFO] default - POST /posts started.
+[2021-08-24T09:07:51.506] [INFO] default - GET /categories started.
+[2021-08-24T09:07:51.520] [ERROR] default - POST /posts ERROR: { MongoError: E11000 duplicate key error collection: blog.posts index: title_1 dup key: { title: "t123" }
+    at Function.create (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/mongodb/lib/core/error.js:57:12)
+    at toError (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/mongodb/lib/utils.js:130:22)
+    at coll.s.topology.insert (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/mongodb/lib/operations/common_functions.js:258:39)
+    at handler (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/mongodb/lib/core/sdam/topology.js:943:24)
+    at fn (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/mongodb/lib/cmap/connection_pool.js:350:13)
+    at handleOperationResult (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/mongodb/lib/core/sdam/server.js:558:5)
+    at MessageStream.messageHandler (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/mongodb/lib/cmap/connection.js:281:5)
+    at MessageStream.emit (events.js:198:13)
+    at processIncomingData (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/mongodb/lib/cmap/message_stream.js:144:12)
+    at MessageStream._write (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/mongodb/lib/cmap/message_stream.js:42:5)
+    at doWrite (_stream_writable.js:415:12)
+    at writeOrBuffer (_stream_writable.js:399:5)
+    at MessageStream.Writable.write (_stream_writable.js:299:11)
+    at TLSSocket.ondata (_stream_readable.js:709:20)
+    at TLSSocket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+  driver: true,
+  name: 'MongoError',
+  index: 0,
+  code: 11000,
+  keyPattern: { title: 1 },
+  keyValue: { title: 't123' } }
+[2021-08-24T09:07:51.535] [INFO] default - PUT /posts/:id started.
+[2021-08-24T09:07:51.540] [INFO] default - GET /categories finished successfully.
+[2021-08-24T09:07:51.547] [INFO] default - PUT /users/:id finished successfully (updatedUser: { profilePic: '1629668997536fall-autumn-red-season.jpg',
+  _id: 60fc871fab0f5d48f9ef3fe8,
+  username: 'test123',
+  email: 'test123@test.com',
+  password:
+   '$2b$10$DBfPaHDjoe8mkPpr.o9WA.PAvDATIjYS5rrZqScXThmoNikVQ9G.O',
+  createdAt: 2021-07-24T21:33:19.697Z,
+  updatedAt: 2021-08-24T07:07:51.496Z,
+  __v: 0 })
+[2021-08-24T09:07:51.565] [INFO] default - DELETE /users/:id started.
+[2021-08-24T09:07:51.566] [ERROR] default - DELETE /users/:id ERROR: You can delete only your account!
+[2021-08-24T09:07:51.570] [INFO] default - GET /users/:id started.
+[2021-08-24T09:07:51.616] [INFO] default - GET /users/:id finished successfully (id: 6122bde1e0af9377ef519ed5)
+[2021-08-24T09:07:51.639] [INFO] default - PUT /posts/:id finished successfully (updatedPost.title: Test-123)
+[2021-08-24T09:07:51.644] [INFO] default - DELETE /posts/:id started.
+[2021-08-24T09:07:51.649] [ERROR] default - DELETE /posts/:id ERROR: { CastError: Cast to ObjectId failed for value "123123123" (type string) at path "_id" for model "Post"
+    at model.Query.exec (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/mongoose/lib/query.js:4498:21)
+    at model.Query.Query.then (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/mongoose/lib/query.js:4592:15)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+  messageFormat: undefined,
+  stringValue: '"123123123"',
+  kind: 'ObjectId',
+  value: '123123123',
+  path: '_id',
+  reason:
+   Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters
+       at new ObjectID (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/bson/lib/bson/objectid.js:59:11)
+       at castObjectId (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/mongoose/lib/cast/objectid.js:25:12)
+       at ObjectId.cast (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/mongoose/lib/schema/objectid.js:245:12)
+       at ObjectId.SchemaType.applySetters (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/mongoose/lib/schematype.js:1123:12)
+       at ObjectId.SchemaType._castForQuery (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/mongoose/lib/schematype.js:1601:15)
+       at ObjectId.SchemaType.castForQuery (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/mongoose/lib/schematype.js:1591:15)
+       at ObjectId.SchemaType.castForQueryWrapper (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/mongoose/lib/schematype.js:1568:20)
+       at cast (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/mongoose/lib/cast.js:331:32)
+       at model.Query.Query.cast (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/mongoose/lib/query.js:4937:12)
+       at model.Query.Query._castConditions (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/mongoose/lib/query.js:1975:10)
+       at model.Query.<anonymous> (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/mongoose/lib/query.js:2232:8)
+       at model.Query._wrappedThunk [as _findOne] (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/mongoose/lib/helpers/query/wrapThunk.js:16:8)
+       at process.nextTick (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/kareem/index.js:370:33)
+       at process._tickCallback (internal/process/next_tick.js:61:11),
+  valueType: 'string' }
+[2021-08-24T09:07:51.653] [INFO] default - GET /posts/:id started.
+[2021-08-24T09:07:51.677] [INFO] default - GET /posts/:id finished successfully (id: 60fc87c9ab0f5d48f9ef3fef)
+[2021-08-24T09:07:51.681] [INFO] default - GET /posts started.
+[2021-08-24T09:07:51.710] [INFO] default - GET /posts finished successfully.
+[2021-08-24T09:08:41.394] [INFO] default - POST /login started (username: test)
+[2021-08-24T09:08:41.431] [INFO] default - POST /posts started.
+[2021-08-24T09:08:41.460] [INFO] default - PUT /users/:id started.
+[2021-08-24T09:08:41.488] [ERROR] default - POST /posts ERROR: { MongoError: E11000 duplicate key error collection: blog.posts index: title_1 dup key: { title: "t123" }
+    at Function.create (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/mongodb/lib/core/error.js:57:12)
+    at toError (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/mongodb/lib/utils.js:130:22)
+    at coll.s.topology.insert (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/mongodb/lib/operations/common_functions.js:258:39)
+    at handler (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/mongodb/lib/core/sdam/topology.js:943:24)
+    at fn (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/mongodb/lib/cmap/connection_pool.js:350:13)
+    at handleOperationResult (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/mongodb/lib/core/sdam/server.js:558:5)
+    at MessageStream.messageHandler (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/mongodb/lib/cmap/connection.js:281:5)
+    at MessageStream.emit (events.js:198:13)
+    at processIncomingData (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/mongodb/lib/cmap/message_stream.js:144:12)
+    at MessageStream._write (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/mongodb/lib/cmap/message_stream.js:42:5)
+    at doWrite (_stream_writable.js:415:12)
+    at writeOrBuffer (_stream_writable.js:399:5)
+    at MessageStream.Writable.write (_stream_writable.js:299:11)
+    at TLSSocket.ondata (_stream_readable.js:709:20)
+    at TLSSocket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+  driver: true,
+  name: 'MongoError',
+  index: 0,
+  code: 11000,
+  keyPattern: { title: 1 },
+  keyValue: { title: 't123' } }
+[2021-08-24T09:08:41.514] [INFO] default - PUT /posts/:id started.
+[2021-08-24T09:08:41.562] [INFO] default - POST /login finished successfully.
+[2021-08-24T09:08:41.577] [INFO] default - POST /login started (username: test)
+[2021-08-24T09:08:41.585] [INFO] default - PUT /posts/:id finished successfully (updatedPost.title: Test-123)
+[2021-08-24T09:08:41.589] [INFO] default - DELETE /posts/:id started.
+[2021-08-24T09:08:41.591] [ERROR] default - DELETE /posts/:id ERROR: { CastError: Cast to ObjectId failed for value "123123123" (type string) at path "_id" for model "Post"
+    at model.Query.exec (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/mongoose/lib/query.js:4498:21)
+    at model.Query.Query.then (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/mongoose/lib/query.js:4592:15)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+  messageFormat: undefined,
+  stringValue: '"123123123"',
+  kind: 'ObjectId',
+  value: '123123123',
+  path: '_id',
+  reason:
+   Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters
+       at new ObjectID (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/bson/lib/bson/objectid.js:59:11)
+       at castObjectId (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/mongoose/lib/cast/objectid.js:25:12)
+       at ObjectId.cast (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/mongoose/lib/schema/objectid.js:245:12)
+       at ObjectId.SchemaType.applySetters (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/mongoose/lib/schematype.js:1123:12)
+       at ObjectId.SchemaType._castForQuery (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/mongoose/lib/schematype.js:1601:15)
+       at ObjectId.SchemaType.castForQuery (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/mongoose/lib/schematype.js:1591:15)
+       at ObjectId.SchemaType.castForQueryWrapper (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/mongoose/lib/schematype.js:1568:20)
+       at cast (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/mongoose/lib/cast.js:331:32)
+       at model.Query.Query.cast (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/mongoose/lib/query.js:4937:12)
+       at model.Query.Query._castConditions (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/mongoose/lib/query.js:1975:10)
+       at model.Query.<anonymous> (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/mongoose/lib/query.js:2232:8)
+       at model.Query._wrappedThunk [as _findOne] (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/mongoose/lib/helpers/query/wrapThunk.js:16:8)
+       at process.nextTick (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/kareem/index.js:370:33)
+       at process._tickCallback (internal/process/next_tick.js:61:11),
+  valueType: 'string' }
+[2021-08-24T09:08:41.596] [INFO] default - GET /posts/:id started.
+[2021-08-24T09:08:41.599] [INFO] default - PUT /users/:id finished successfully (updatedUser: { profilePic: '1629668997536fall-autumn-red-season.jpg',
+  _id: 60fc871fab0f5d48f9ef3fe8,
+  username: 'test123',
+  email: 'test123@test.com',
+  password:
+   '$2b$10$mwJ52P7rGcg4WV4RC9R/4u9jUcfSVruTtfVMpf/YZTnkR8saVs5Vu',
+  createdAt: 2021-07-24T21:33:19.697Z,
+  updatedAt: 2021-08-24T07:08:41.569Z,
+  __v: 0 })
+[2021-08-24T09:08:41.620] [INFO] default - DELETE /users/:id started.
+[2021-08-24T09:08:41.621] [ERROR] default - DELETE /users/:id ERROR: You can delete only your account!
+[2021-08-24T09:08:41.628] [INFO] default - GET /users/:id started.
+[2021-08-24T09:08:41.637] [INFO] default - GET /posts/:id finished successfully (id: 60fc87c9ab0f5d48f9ef3fef)
+[2021-08-24T09:08:41.638] [INFO] default - GET /posts started.
+[2021-08-24T09:08:41.656] [INFO] default - GET /users/:id finished successfully (id: 6122bde1e0af9377ef519ed5)
+[2021-08-24T09:08:41.681] [INFO] default - GET /posts finished successfully.
+[2021-08-24T09:08:41.700] [ERROR] default - POST /login ERROR: Wrong credentials!
+[2021-08-24T09:08:41.718] [INFO] default - POST /register started (username: testABC, email: )
+[2021-08-24T09:08:41.803] [INFO] default - GET /categories started.
+[2021-08-24T09:08:41.829] [INFO] default - GET /categories finished successfully.
+[2021-08-24T09:08:41.889] [ERROR] default - POST /register ERROR: { Error: User validation failed: email: Path `email` is required.
+    at ValidationError.inspect (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/mongoose/lib/error/validation.js:47:26)
+    at formatValue (internal/util/inspect.js:491:31)
+    at inspect (internal/util/inspect.js:189:10)
+    at formatWithOptions (util.js:164:18)
+    at Object.format (util.js:72:10)
+    at basicLayout (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/log4js/lib/layouts.js:62:57)
+    at app (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/log4js/lib/appenders/file.js:64:23)
+    at categoryAppenders.forEach.appender (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/log4js/lib/log4js.js:42:5)
+    at Array.forEach (<anonymous>)
+    at sendLogEventToAppender (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/log4js/lib/log4js.js:41:21)
+    at listeners.forEach.l (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/log4js/lib/clustering.js:23:26)
+    at Array.forEach (<anonymous>)
+    at sendToListeners (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/log4js/lib/clustering.js:23:13)
+    at Object.send (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/log4js/lib/clustering.js:89:7)
+    at Logger._log (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/log4js/lib/logger.js:90:16)
+    at Logger.log (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/log4js/lib/logger.js:73:12)
+  errors:
+   { email:
+      { ValidatorError: Path `email` is required.
+          at validate (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/mongoose/lib/schematype.js:1270:13)
+          at /home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/mongoose/lib/schematype.js:1253:7
+          at Array.forEach (<anonymous>)
+          at SchemaString.SchemaType.doValidate (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/mongoose/lib/schematype.js:1198:14)
+          at /home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/mongoose/lib/document.js:2542:18
+          at process._tickCallback (internal/process/next_tick.js:61:11)
+        properties: [Object],
+        kind: 'required',
+        path: 'email',
+        value: '',
+        reason: undefined,
+        [Symbol(mongoose:validatorError)]: true } },
+  _message: 'User validation failed' }
+[2021-08-24T09:24:29.009] [INFO] default - POST /posts started.
+[2021-08-24T09:24:29.067] [ERROR] default - POST /posts ERROR: { MongoError: E11000 duplicate key error collection: blog.posts index: title_1 dup key: { title: "t123" }
+    at Function.create (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/mongodb/lib/core/error.js:57:12)
+    at toError (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/mongodb/lib/utils.js:130:22)
+    at coll.s.topology.insert (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/mongodb/lib/operations/common_functions.js:258:39)
+    at handler (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/mongodb/lib/core/sdam/topology.js:943:24)
+    at fn (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/mongodb/lib/cmap/connection_pool.js:350:13)
+    at handleOperationResult (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/mongodb/lib/core/sdam/server.js:558:5)
+    at MessageStream.messageHandler (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/mongodb/lib/cmap/connection.js:281:5)
+    at MessageStream.emit (events.js:198:13)
+    at processIncomingData (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/mongodb/lib/cmap/message_stream.js:144:12)
+    at MessageStream._write (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/mongodb/lib/cmap/message_stream.js:42:5)
+    at doWrite (_stream_writable.js:415:12)
+    at writeOrBuffer (_stream_writable.js:399:5)
+    at MessageStream.Writable.write (_stream_writable.js:299:11)
+    at TLSSocket.ondata (_stream_readable.js:709:20)
+    at TLSSocket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+  driver: true,
+  name: 'MongoError',
+  index: 0,
+  code: 11000,
+  keyPattern: { title: 1 },
+  keyValue: { title: 't123' } }
+[2021-08-24T09:24:29.093] [INFO] default - PUT /posts/:id started.
+[2021-08-24T09:24:29.111] [INFO] default - PUT /users/:id started.
+[2021-08-24T09:24:29.199] [INFO] default - PUT /posts/:id finished successfully (updatedPost.title: Test-123)
+[2021-08-24T09:24:29.208] [INFO] default - DELETE /posts/:id started.
+[2021-08-24T09:24:29.212] [ERROR] default - DELETE /posts/:id ERROR: { CastError: Cast to ObjectId failed for value "123123123" (type string) at path "_id" for model "Post"
+    at model.Query.exec (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/mongoose/lib/query.js:4498:21)
+    at model.Query.Query.then (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/mongoose/lib/query.js:4592:15)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+  messageFormat: undefined,
+  stringValue: '"123123123"',
+  kind: 'ObjectId',
+  value: '123123123',
+  path: '_id',
+  reason:
+   Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters
+       at new ObjectID (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/bson/lib/bson/objectid.js:59:11)
+       at castObjectId (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/mongoose/lib/cast/objectid.js:25:12)
+       at ObjectId.cast (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/mongoose/lib/schema/objectid.js:245:12)
+       at ObjectId.SchemaType.applySetters (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/mongoose/lib/schematype.js:1123:12)
+       at ObjectId.SchemaType._castForQuery (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/mongoose/lib/schematype.js:1601:15)
+       at ObjectId.SchemaType.castForQuery (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/mongoose/lib/schematype.js:1591:15)
+       at ObjectId.SchemaType.castForQueryWrapper (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/mongoose/lib/schematype.js:1568:20)
+       at cast (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/mongoose/lib/cast.js:331:32)
+       at model.Query.Query.cast (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/mongoose/lib/query.js:4937:12)
+       at model.Query.Query._castConditions (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/mongoose/lib/query.js:1975:10)
+       at model.Query.<anonymous> (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/mongoose/lib/query.js:2232:8)
+       at model.Query._wrappedThunk [as _findOne] (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/mongoose/lib/helpers/query/wrapThunk.js:16:8)
+       at process.nextTick (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/kareem/index.js:370:33)
+       at process._tickCallback (internal/process/next_tick.js:61:11),
+  valueType: 'string' }
+[2021-08-24T09:24:29.219] [INFO] default - GET /posts/:id started.
+[2021-08-24T09:24:29.253] [INFO] default - GET /posts/:id finished successfully (id: 60fc87c9ab0f5d48f9ef3fef)
+[2021-08-24T09:24:29.256] [INFO] default - GET /posts started.
+[2021-08-24T09:24:29.271] [INFO] default - PUT /users/:id finished successfully (updatedUser: { profilePic: '1629668997536fall-autumn-red-season.jpg',
+  _id: 60fc871fab0f5d48f9ef3fe8,
+  username: 'test123',
+  email: 'test123@test.com',
+  password:
+   '$2b$10$jlh7KNKOkcbkpb0zMuNZw.ou6hhxt13/IgZJszrgfupr38nz1vWqS',
+  createdAt: 2021-07-24T21:33:19.697Z,
+  updatedAt: 2021-08-24T07:24:29.215Z,
+  __v: 0 })
+[2021-08-24T09:24:29.274] [INFO] default - POST /login started (username: test)
+[2021-08-24T09:24:29.288] [INFO] default - GET /posts finished successfully.
+[2021-08-24T09:24:29.303] [INFO] default - DELETE /users/:id started.
+[2021-08-24T09:24:29.306] [ERROR] default - DELETE /users/:id ERROR: You can delete only your account!
+[2021-08-24T09:24:29.311] [INFO] default - GET /users/:id started.
+[2021-08-24T09:24:29.338] [INFO] default - GET /users/:id finished successfully (id: 6122bde1e0af9377ef519ed5)
+[2021-08-24T09:24:29.414] [INFO] default - POST /login finished successfully.
+[2021-08-24T09:24:29.426] [INFO] default - GET /categories started.
+[2021-08-24T09:24:29.452] [INFO] default - GET /categories finished successfully.
+[2021-08-24T09:24:29.457] [INFO] default - POST /login started (username: test)
+[2021-08-24T09:24:29.594] [ERROR] default - POST /login ERROR: Wrong credentials!
+[2021-08-24T09:24:29.599] [INFO] default - POST /login started (username: test)
+[2021-08-24T09:24:29.601] [INFO] default - POST /register started (username: testABC, email: )
+[2021-08-24T09:24:29.697] [ERROR] default - POST /register ERROR: { Error: User validation failed: email: Path `email` is required.
+    at ValidationError.inspect (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/mongoose/lib/error/validation.js:47:26)
+    at formatValue (internal/util/inspect.js:491:31)
+    at inspect (internal/util/inspect.js:189:10)
+    at formatWithOptions (util.js:164:18)
+    at Object.format (util.js:72:10)
+    at basicLayout (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/log4js/lib/layouts.js:62:57)
+    at app (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/log4js/lib/appenders/file.js:64:23)
+    at categoryAppenders.forEach.appender (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/log4js/lib/log4js.js:42:5)
+    at Array.forEach (<anonymous>)
+    at sendLogEventToAppender (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/log4js/lib/log4js.js:41:21)
+    at listeners.forEach.l (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/log4js/lib/clustering.js:23:26)
+    at Array.forEach (<anonymous>)
+    at sendToListeners (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/log4js/lib/clustering.js:23:13)
+    at Object.send (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/log4js/lib/clustering.js:89:7)
+    at Logger._log (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/log4js/lib/logger.js:90:16)
+    at Logger.log (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/log4js/lib/logger.js:73:12)
+  errors:
+   { email:
+      { ValidatorError: Path `email` is required.
+          at validate (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/mongoose/lib/schematype.js:1270:13)
+          at /home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/mongoose/lib/schematype.js:1253:7
+          at Array.forEach (<anonymous>)
+          at SchemaString.SchemaType.doValidate (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/mongoose/lib/schematype.js:1198:14)
+          at /home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/mongoose/lib/document.js:2542:18
+          at process._tickCallback (internal/process/next_tick.js:61:11)
+        properties: [Object],
+        kind: 'required',
+        path: 'email',
+        value: '',
+        reason: undefined,
+        [Symbol(mongoose:validatorError)]: true } },
+  _message: 'User validation failed' }
+[2021-08-24T09:24:29.728] [INFO] default - POST /login finished successfully.
+[2021-08-24T09:24:29.734] [INFO] default - POST /login started (username: test)
+[2021-08-24T09:24:29.866] [ERROR] default - POST /login ERROR: Wrong credentials!
+[2021-08-24T09:24:29.869] [INFO] default - POST /register started (username: testABC, email: )
+[2021-08-24T09:24:29.958] [ERROR] default - POST /register ERROR: { Error: User validation failed: email: Path `email` is required.
+    at ValidationError.inspect (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/mongoose/lib/error/validation.js:47:26)
+    at formatValue (internal/util/inspect.js:491:31)
+    at inspect (internal/util/inspect.js:189:10)
+    at formatWithOptions (util.js:164:18)
+    at Object.format (util.js:72:10)
+    at basicLayout (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/log4js/lib/layouts.js:62:57)
+    at app (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/log4js/lib/appenders/file.js:64:23)
+    at categoryAppenders.forEach.appender (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/log4js/lib/log4js.js:42:5)
+    at Array.forEach (<anonymous>)
+    at sendLogEventToAppender (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/log4js/lib/log4js.js:41:21)
+    at listeners.forEach.l (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/log4js/lib/clustering.js:23:26)
+    at Array.forEach (<anonymous>)
+    at sendToListeners (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/log4js/lib/clustering.js:23:13)
+    at Object.send (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/log4js/lib/clustering.js:89:7)
+    at Logger._log (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/log4js/lib/logger.js:90:16)
+    at Logger.log (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/log4js/lib/logger.js:73:12)
+  errors:
+   { email:
+      { ValidatorError: Path `email` is required.
+          at validate (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/mongoose/lib/schematype.js:1270:13)
+          at /home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/mongoose/lib/schematype.js:1253:7
+          at Array.forEach (<anonymous>)
+          at SchemaString.SchemaType.doValidate (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/mongoose/lib/schematype.js:1198:14)
+          at /home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/mongoose/lib/document.js:2542:18
+          at process._tickCallback (internal/process/next_tick.js:61:11)
+        properties: [Object],
+        kind: 'required',
+        path: 'email',
+        value: '',
+        reason: undefined,
+        [Symbol(mongoose:validatorError)]: true } },
+  _message: 'User validation failed' }
+[2021-08-24T09:31:39.386] [INFO] default - PUT /users/:id started.
+[2021-08-24T09:31:39.401] [INFO] default - POST /posts started.
+[2021-08-24T09:31:39.439] [INFO] default - POST /login started (username: test)
+[2021-08-24T09:31:39.509] [ERROR] default - POST /posts ERROR: { MongoError: E11000 duplicate key error collection: blog.posts index: title_1 dup key: { title: "t123" }
+    at Function.create (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/mongodb/lib/core/error.js:57:12)
+    at toError (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/mongodb/lib/utils.js:130:22)
+    at coll.s.topology.insert (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/mongodb/lib/operations/common_functions.js:258:39)
+    at handler (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/mongodb/lib/core/sdam/topology.js:943:24)
+    at fn (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/mongodb/lib/cmap/connection_pool.js:350:13)
+    at handleOperationResult (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/mongodb/lib/core/sdam/server.js:558:5)
+    at MessageStream.messageHandler (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/mongodb/lib/cmap/connection.js:281:5)
+    at MessageStream.emit (events.js:198:13)
+    at processIncomingData (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/mongodb/lib/cmap/message_stream.js:144:12)
+    at MessageStream._write (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/mongodb/lib/cmap/message_stream.js:42:5)
+    at doWrite (_stream_writable.js:415:12)
+    at writeOrBuffer (_stream_writable.js:399:5)
+    at MessageStream.Writable.write (_stream_writable.js:299:11)
+    at TLSSocket.ondata (_stream_readable.js:709:20)
+    at TLSSocket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+  driver: true,
+  name: 'MongoError',
+  index: 0,
+  code: 11000,
+  keyPattern: { title: 1 },
+  keyValue: { title: 't123' } }
+[2021-08-24T09:31:39.529] [INFO] default - PUT /posts/:id started.
+[2021-08-24T09:31:39.538] [INFO] default - PUT /users/:id finished successfully (updatedUser: { profilePic: '1629668997536fall-autumn-red-season.jpg',
+  _id: 60fc871fab0f5d48f9ef3fe8,
+  username: 'test123',
+  email: 'test123@test.com',
+  password:
+   '$2b$10$78/sbKJQoQml.XDV/zyh5.dA8zOM9N2RuBqddUUSq7kL38KkQjcoO',
+  createdAt: 2021-07-24T21:33:19.697Z,
+  updatedAt: 2021-08-24T07:31:39.494Z,
+  __v: 0 })
+[2021-08-24T09:31:39.569] [INFO] default - DELETE /users/:id started.
+[2021-08-24T09:31:39.569] [ERROR] default - DELETE /users/:id ERROR: You can delete only your account!
+[2021-08-24T09:31:39.577] [INFO] default - GET /users/:id started.
+[2021-08-24T09:31:39.598] [INFO] default - PUT /posts/:id finished successfully (updatedPost.title: Test-123)
+[2021-08-24T09:31:39.601] [INFO] default - GET /users/:id finished successfully (id: 6122bde1e0af9377ef519ed5)
+[2021-08-24T09:31:39.603] [INFO] default - DELETE /posts/:id started.
+[2021-08-24T09:31:39.609] [ERROR] default - DELETE /posts/:id ERROR: { CastError: Cast to ObjectId failed for value "123123123" (type string) at path "_id" for model "Post"
+    at model.Query.exec (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/mongoose/lib/query.js:4498:21)
+    at model.Query.Query.then (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/mongoose/lib/query.js:4592:15)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+  messageFormat: undefined,
+  stringValue: '"123123123"',
+  kind: 'ObjectId',
+  value: '123123123',
+  path: '_id',
+  reason:
+   Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters
+       at new ObjectID (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/bson/lib/bson/objectid.js:59:11)
+       at castObjectId (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/mongoose/lib/cast/objectid.js:25:12)
+       at ObjectId.cast (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/mongoose/lib/schema/objectid.js:245:12)
+       at ObjectId.SchemaType.applySetters (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/mongoose/lib/schematype.js:1123:12)
+       at ObjectId.SchemaType._castForQuery (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/mongoose/lib/schematype.js:1601:15)
+       at ObjectId.SchemaType.castForQuery (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/mongoose/lib/schematype.js:1591:15)
+       at ObjectId.SchemaType.castForQueryWrapper (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/mongoose/lib/schematype.js:1568:20)
+       at cast (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/mongoose/lib/cast.js:331:32)
+       at model.Query.Query.cast (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/mongoose/lib/query.js:4937:12)
+       at model.Query.Query._castConditions (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/mongoose/lib/query.js:1975:10)
+       at model.Query.<anonymous> (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/mongoose/lib/query.js:2232:8)
+       at model.Query._wrappedThunk [as _findOne] (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/mongoose/lib/helpers/query/wrapThunk.js:16:8)
+       at process.nextTick (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/kareem/index.js:370:33)
+       at process._tickCallback (internal/process/next_tick.js:61:11),
+  valueType: 'string' }
+[2021-08-24T09:31:39.620] [INFO] default - POST /login finished successfully.
+[2021-08-24T09:31:39.621] [INFO] default - GET /posts/:id started.
+[2021-08-24T09:31:39.648] [INFO] default - GET /posts/:id finished successfully (id: 60fc87c9ab0f5d48f9ef3fef)
+[2021-08-24T09:31:39.655] [INFO] default - GET /posts started.
+[2021-08-24T09:31:39.660] [INFO] default - POST /login started (username: test)
+[2021-08-24T09:31:39.717] [INFO] default - GET /categories started.
+[2021-08-24T09:31:39.795] [INFO] default - GET /posts finished successfully.
+[2021-08-24T09:31:39.812] [INFO] default - GET /categories finished successfully.
+[2021-08-24T09:31:39.893] [ERROR] default - POST /login ERROR: Wrong credentials!
+[2021-08-24T09:31:39.900] [INFO] default - POST /register started (username: testABC, email: )
+[2021-08-24T09:31:39.993] [ERROR] default - POST /register ERROR: { Error: User validation failed: email: Path `email` is required.
+    at ValidationError.inspect (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/mongoose/lib/error/validation.js:47:26)
+    at formatValue (internal/util/inspect.js:491:31)
+    at inspect (internal/util/inspect.js:189:10)
+    at formatWithOptions (util.js:164:18)
+    at Object.format (util.js:72:10)
+    at basicLayout (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/log4js/lib/layouts.js:62:57)
+    at app (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/log4js/lib/appenders/file.js:64:23)
+    at categoryAppenders.forEach.appender (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/log4js/lib/log4js.js:42:5)
+    at Array.forEach (<anonymous>)
+    at sendLogEventToAppender (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/log4js/lib/log4js.js:41:21)
+    at listeners.forEach.l (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/log4js/lib/clustering.js:23:26)
+    at Array.forEach (<anonymous>)
+    at sendToListeners (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/log4js/lib/clustering.js:23:13)
+    at Object.send (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/log4js/lib/clustering.js:89:7)
+    at Logger._log (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/log4js/lib/logger.js:90:16)
+    at Logger.log (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/log4js/lib/logger.js:73:12)
+  errors:
+   { email:
+      { ValidatorError: Path `email` is required.
+          at validate (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/mongoose/lib/schematype.js:1270:13)
+          at /home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/mongoose/lib/schematype.js:1253:7
+          at Array.forEach (<anonymous>)
+          at SchemaString.SchemaType.doValidate (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/mongoose/lib/schematype.js:1198:14)
+          at /home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/mongoose/lib/document.js:2542:18
+          at process._tickCallback (internal/process/next_tick.js:61:11)
+        properties: [Object],
+        kind: 'required',
+        path: 'email',
+        value: '',
+        reason: undefined,
+        [Symbol(mongoose:validatorError)]: true } },
+  _message: 'User validation failed' }
+[2021-08-25T10:13:42.703] [INFO] default - GET /categories started.
+[2021-08-25T10:13:42.845] [INFO] default - GET /posts started.
+[2021-08-25T10:13:43.198] [INFO] default - GET /categories finished successfully.
+[2021-08-25T10:13:43.247] [INFO] default - GET /posts finished successfully.
+[2021-08-25T10:40:48.436] [INFO] default - GET /categories started.
+[2021-08-25T10:40:48.438] [INFO] default - GET /posts started.
+[2021-08-25T10:40:48.452] [INFO] default - GET /categories finished successfully.
+[2021-08-25T10:40:48.468] [INFO] default - GET /posts finished successfully.
+[2021-08-25T10:41:08.322] [INFO] default - POST /login started (username: test)
+[2021-08-25T10:41:08.494] [INFO] default - POST /login finished successfully.
+[2021-08-25T10:41:08.700] [INFO] default - GET /categories started.
+[2021-08-25T10:41:08.702] [INFO] default - GET /posts started.
+[2021-08-25T10:41:08.724] [INFO] default - GET /categories finished successfully.
+[2021-08-25T10:41:08.727] [INFO] default - GET /posts finished successfully.
+[2021-08-25T10:41:34.822] [INFO] default - POST /posts started.
+[2021-08-25T10:41:34.918] [INFO] default - POST /posts finished successfully (savedPost.title: ttt)
+[2021-08-25T10:41:36.345] [INFO] default - GET /posts/:id started.
+[2021-08-25T10:41:36.355] [INFO] default - GET /categories started.
+[2021-08-25T10:41:36.387] [INFO] default - GET /categories finished successfully.
+[2021-08-25T10:41:36.390] [INFO] default - GET /posts/:id finished successfully (id: 6126023e7563f1072ecbd075)
+[2021-08-25T10:41:41.734] [INFO] default - GET /categories started.
+[2021-08-25T10:41:41.760] [INFO] default - GET /categories finished successfully.
+[2021-08-25T10:41:41.847] [INFO] default - GET /posts started.
+[2021-08-25T10:41:41.883] [INFO] default - GET /posts finished successfully.
+[2021-08-25T12:27:20.657] [INFO] default - GET /categories started.
+[2021-08-25T12:27:20.660] [INFO] default - GET /posts started.
+[2021-08-25T12:27:20.679] [INFO] default - GET /categories finished successfully.
+[2021-08-25T12:27:20.688] [INFO] default - GET /posts finished successfully.
+[2021-08-25T12:36:37.174] [INFO] default - GET /categories started.
+[2021-08-25T12:36:37.176] [INFO] default - GET /posts started.
+[2021-08-25T12:36:37.201] [INFO] default - GET /categories finished successfully.
+[2021-08-25T12:36:37.204] [INFO] default - GET /posts finished successfully.
+[2021-08-25T12:37:38.906] [INFO] default - GET /categories started.
+[2021-08-25T12:37:38.922] [INFO] default - GET /categories finished successfully.
+[2021-08-25T12:37:38.924] [INFO] default - GET /posts started.
+[2021-08-25T12:37:38.952] [INFO] default - GET /posts finished successfully.
+[2021-08-25T12:37:44.151] [INFO] default - GET /categories started.
+[2021-08-25T12:37:44.163] [INFO] default - GET /posts started.
+[2021-08-25T12:37:44.175] [INFO] default - GET /categories finished successfully.
+[2021-08-25T12:37:44.192] [INFO] default - GET /posts finished successfully.
+[2021-08-25T12:37:48.519] [INFO] default - GET /categories started.
+[2021-08-25T12:37:48.528] [INFO] default - GET /posts started.
+[2021-08-25T12:37:48.539] [INFO] default - GET /categories finished successfully.
+[2021-08-25T12:37:48.558] [INFO] default - GET /posts finished successfully.
+[2021-08-25T12:37:52.940] [INFO] default - GET /categories started.
+[2021-08-25T12:37:52.959] [INFO] default - GET /posts started.
+[2021-08-25T12:37:52.967] [INFO] default - GET /categories finished successfully.
+[2021-08-25T12:37:52.986] [INFO] default - GET /posts finished successfully.
+[2021-08-25T12:37:57.387] [INFO] default - GET /categories started.
+[2021-08-25T12:37:57.392] [INFO] default - GET /posts started.
+[2021-08-25T12:37:57.408] [INFO] default - GET /categories finished successfully.
+[2021-08-25T12:37:57.411] [INFO] default - GET /posts finished successfully.
+[2021-08-25T12:38:01.767] [INFO] default - GET /categories started.
+[2021-08-25T12:38:01.781] [INFO] default - GET /posts started.
+[2021-08-25T12:38:01.793] [INFO] default - GET /categories finished successfully.
+[2021-08-25T12:38:01.807] [INFO] default - GET /posts finished successfully.
+[2021-08-25T12:38:06.205] [INFO] default - GET /categories started.
+[2021-08-25T12:38:06.213] [INFO] default - GET /posts started.
+[2021-08-25T12:38:06.225] [INFO] default - GET /categories finished successfully.
+[2021-08-25T12:38:06.236] [INFO] default - GET /posts finished successfully.
+[2021-08-25T12:38:56.721] [INFO] default - GET /categories started.
+[2021-08-25T12:38:56.722] [INFO] default - GET /posts started.
+[2021-08-25T12:38:56.746] [INFO] default - GET /categories finished successfully.
+[2021-08-25T12:38:56.749] [INFO] default - GET /posts finished successfully.
+[2021-08-25T12:39:20.805] [INFO] default - POST /login started (username: test)
+[2021-08-25T12:39:20.917] [INFO] default - POST /login finished successfully.
+[2021-08-25T12:39:20.943] [INFO] default - GET /categories started.
+[2021-08-25T12:39:20.946] [INFO] default - GET /posts started.
+[2021-08-25T12:39:20.966] [INFO] default - GET /categories finished successfully.
+[2021-08-25T12:39:20.969] [INFO] default - GET /posts finished successfully.
+[2021-08-25T12:39:28.801] [INFO] default - GET /categories started.
+[2021-08-25T12:39:28.812] [INFO] default - GET /posts started.
+[2021-08-25T12:39:28.824] [INFO] default - GET /categories finished successfully.
+[2021-08-25T12:39:28.835] [INFO] default - GET /posts finished successfully.
+[2021-08-25T12:39:33.989] [INFO] default - GET /categories started.
+[2021-08-25T12:39:34.005] [INFO] default - GET /posts started.
+[2021-08-25T12:39:34.023] [INFO] default - GET /categories finished successfully.
+[2021-08-25T12:39:34.030] [INFO] default - GET /posts finished successfully.
+[2021-08-25T12:41:33.937] [INFO] default - GET /posts/:id started.
+[2021-08-25T12:41:33.940] [INFO] default - GET /categories started.
+[2021-08-25T12:41:33.959] [INFO] default - GET /posts/:id finished successfully (id: 6126023e7563f1072ecbd075)
+[2021-08-25T12:41:33.964] [INFO] default - GET /categories finished successfully.
+[2021-08-25T12:41:36.564] [INFO] default - DELETE /posts/:id started.
+[2021-08-25T12:41:36.621] [INFO] default - DELETE /posts/:id finished successfully (id: 6126023e7563f1072ecbd075)
+[2021-08-25T12:41:36.880] [INFO] default - GET /categories started.
+[2021-08-25T12:41:36.894] [INFO] default - GET /posts started.
+[2021-08-25T12:41:36.905] [INFO] default - GET /categories finished successfully.
+[2021-08-25T12:41:36.919] [INFO] default - GET /posts finished successfully.
+[2021-08-25T12:43:22.492] [INFO] default - GET /categories started.
+[2021-08-25T12:43:22.500] [INFO] default - GET /posts started.
+[2021-08-25T12:43:22.516] [INFO] default - GET /categories finished successfully.
+[2021-08-25T12:43:22.530] [INFO] default - GET /posts finished successfully.
+[2021-08-25T12:43:26.946] [INFO] default - GET /categories started.
+[2021-08-25T12:43:26.950] [INFO] default - GET /posts started.
+[2021-08-25T12:43:26.969] [INFO] default - GET /categories finished successfully.
+[2021-08-25T12:43:26.973] [INFO] default - GET /posts finished successfully.
+[2021-08-25T12:43:31.241] [INFO] default - GET /categories started.
+[2021-08-25T12:43:31.265] [INFO] default - GET /categories finished successfully.
+[2021-08-25T12:43:31.266] [INFO] default - GET /posts started.
+[2021-08-25T12:43:31.291] [INFO] default - GET /posts finished successfully.
+[2021-08-25T12:44:28.327] [INFO] default - GET /categories started.
+[2021-08-25T12:44:28.343] [INFO] default - GET /posts started.
+[2021-08-25T12:44:28.348] [INFO] default - GET /categories finished successfully.
+[2021-08-25T12:44:28.373] [INFO] default - GET /posts finished successfully.
+[2021-08-25T12:44:33.391] [INFO] default - GET /categories started.
+[2021-08-25T12:44:33.404] [INFO] default - GET /posts started.
+[2021-08-25T12:44:33.410] [INFO] default - GET /categories finished successfully.
+[2021-08-25T12:44:33.432] [INFO] default - GET /posts finished successfully.
+[2021-08-25T12:44:37.831] [INFO] default - GET /categories started.
+[2021-08-25T12:44:37.848] [INFO] default - GET /posts started.
+[2021-08-25T12:44:37.854] [INFO] default - GET /categories finished successfully.
+[2021-08-25T12:44:37.873] [INFO] default - GET /posts finished successfully.
+[2021-08-25T12:44:40.532] [INFO] default - GET /categories started.
+[2021-08-25T12:44:40.541] [INFO] default - GET /posts started.
+[2021-08-25T12:44:40.559] [INFO] default - GET /categories finished successfully.
+[2021-08-25T12:44:40.563] [INFO] default - GET /posts finished successfully.
+[2021-08-25T12:44:42.553] [INFO] default - POST /login started (username: test)
+[2021-08-25T12:44:42.837] [ERROR] default - POST /login ERROR: Wrong credentials!
+[2021-08-25T12:44:43.161] [INFO] default - GET /categories started.
+[2021-08-25T12:44:43.170] [INFO] default - GET /posts started.
+[2021-08-25T12:44:43.180] [INFO] default - GET /categories finished successfully.
+[2021-08-25T12:44:43.198] [INFO] default - GET /posts finished successfully.
+[2021-08-25T12:44:47.641] [INFO] default - GET /categories started.
+[2021-08-25T12:44:47.649] [INFO] default - GET /posts started.
+[2021-08-25T12:44:47.663] [INFO] default - GET /categories finished successfully.
+[2021-08-25T12:44:47.678] [INFO] default - GET /posts finished successfully.
+[2021-08-25T12:51:40.485] [INFO] default - POST /login started (username: test)
+[2021-08-25T12:51:40.611] [INFO] default - POST /login finished successfully.
+[2021-08-25T12:51:40.666] [INFO] default - GET /categories started.
+[2021-08-25T12:51:40.668] [INFO] default - GET /posts started.
+[2021-08-25T12:51:40.688] [INFO] default - GET /categories finished successfully.
+[2021-08-25T12:51:40.692] [INFO] default - GET /posts finished successfully.
+[2021-08-25T12:53:23.085] [INFO] default - GET /categories started.
+[2021-08-25T12:53:23.097] [INFO] default - GET /posts started.
+[2021-08-25T12:53:23.106] [INFO] default - GET /categories finished successfully.
+[2021-08-25T12:53:23.123] [INFO] default - GET /posts finished successfully.
+[2021-08-25T12:53:27.497] [INFO] default - GET /categories started.
+[2021-08-25T12:53:27.513] [INFO] default - GET /posts started.
+[2021-08-25T12:53:27.534] [INFO] default - GET /categories finished successfully.
+[2021-08-25T12:53:27.540] [INFO] default - GET /posts finished successfully.
+[2021-08-25T12:53:34.504] [INFO] default - GET /categories started.
+[2021-08-25T12:53:34.521] [INFO] default - GET /posts started.
+[2021-08-25T12:53:34.528] [INFO] default - GET /categories finished successfully.
+[2021-08-25T12:53:34.547] [INFO] default - GET /posts finished successfully.
+[2021-08-25T12:53:59.822] [INFO] default - GET /categories started.
+[2021-08-25T12:53:59.835] [INFO] default - GET /posts started.
+[2021-08-25T12:53:59.851] [INFO] default - GET /categories finished successfully.
+[2021-08-25T12:53:59.860] [INFO] default - GET /posts finished successfully.
+[2021-08-25T12:54:04.910] [INFO] default - GET /categories started.
+[2021-08-25T12:54:04.917] [INFO] default - GET /posts started.
+[2021-08-25T12:54:04.932] [INFO] default - GET /categories finished successfully.
+[2021-08-25T12:54:04.940] [INFO] default - GET /posts finished successfully.
+[2021-08-25T12:54:09.336] [INFO] default - GET /categories started.
+[2021-08-25T12:54:09.342] [INFO] default - GET /posts started.
+[2021-08-25T12:54:09.357] [INFO] default - GET /categories finished successfully.
+[2021-08-25T12:54:09.360] [INFO] default - GET /posts finished successfully.
+[2021-08-25T12:56:18.838] [INFO] default - GET /categories started.
+[2021-08-25T12:56:18.853] [INFO] default - GET /posts started.
+[2021-08-25T12:56:18.866] [INFO] default - GET /categories finished successfully.
+[2021-08-25T12:56:18.881] [INFO] default - GET /posts finished successfully.
+[2021-08-25T12:56:23.415] [INFO] default - GET /categories started.
+[2021-08-25T12:56:23.420] [INFO] default - GET /posts started.
+[2021-08-25T12:56:23.443] [INFO] default - GET /posts finished successfully.
+[2021-08-25T12:56:23.444] [INFO] default - GET /categories finished successfully.
+[2021-08-25T12:56:27.795] [INFO] default - GET /categories started.
+[2021-08-25T12:56:27.800] [INFO] default - GET /posts started.
+[2021-08-25T12:56:27.817] [INFO] default - GET /categories finished successfully.
+[2021-08-25T12:56:27.831] [INFO] default - GET /posts finished successfully.
+[2021-08-25T13:00:09.726] [INFO] default - GET /categories started.
+[2021-08-25T13:00:09.747] [INFO] default - GET /posts started.
+[2021-08-25T13:00:09.781] [INFO] default - GET /categories finished successfully.
+[2021-08-25T13:00:09.803] [INFO] default - GET /posts finished successfully.
+[2021-08-25T13:00:14.920] [INFO] default - GET /categories started.
+[2021-08-25T13:00:14.931] [INFO] default - GET /posts started.
+[2021-08-25T13:00:14.949] [INFO] default - GET /categories finished successfully.
+[2021-08-25T13:00:14.959] [INFO] default - GET /posts finished successfully.
+[2021-08-25T13:00:33.726] [INFO] default - GET /categories started.
+[2021-08-25T13:00:33.747] [INFO] default - GET /posts started.
+[2021-08-25T13:00:33.758] [INFO] default - GET /categories finished successfully.
+[2021-08-25T13:00:33.776] [INFO] default - GET /posts finished successfully.
+[2021-08-25T13:00:39.031] [INFO] default - GET /categories started.
+[2021-08-25T13:00:39.042] [INFO] default - GET /posts started.
+[2021-08-25T13:00:39.053] [INFO] default - GET /categories finished successfully.
+[2021-08-25T13:00:39.064] [INFO] default - GET /posts finished successfully.
+[2021-08-25T13:02:49.312] [INFO] default - GET /categories started.
+[2021-08-25T13:02:49.333] [INFO] default - GET /categories finished successfully.
+[2021-08-25T13:02:49.356] [INFO] default - GET /posts started.
+[2021-08-25T13:02:49.392] [INFO] default - GET /posts finished successfully.
+[2021-08-25T13:02:59.332] [INFO] default - GET /categories started.
+[2021-08-25T13:02:59.348] [INFO] default - GET /posts started.
+[2021-08-25T13:02:59.355] [INFO] default - GET /categories finished successfully.
+[2021-08-25T13:02:59.372] [INFO] default - GET /posts finished successfully.
+[2021-08-25T13:03:03.189] [INFO] default - GET /categories started.
+[2021-08-25T13:03:03.200] [INFO] default - GET /posts started.
+[2021-08-25T13:03:03.213] [INFO] default - GET /categories finished successfully.
+[2021-08-25T13:03:03.227] [INFO] default - GET /posts finished successfully.
+[2021-08-25T13:03:19.325] [INFO] default - GET /categories started.
+[2021-08-25T13:03:19.335] [INFO] default - GET /posts started.
+[2021-08-25T13:03:19.349] [INFO] default - GET /categories finished successfully.
+[2021-08-25T13:03:19.367] [INFO] default - GET /posts finished successfully.
+[2021-08-25T13:04:32.806] [INFO] default - GET /categories started.
+[2021-08-25T13:04:32.814] [INFO] default - GET /posts started.
+[2021-08-25T13:04:32.829] [INFO] default - GET /categories finished successfully.
+[2021-08-25T13:04:32.839] [INFO] default - GET /posts finished successfully.
+[2021-08-25T13:04:34.490] [INFO] default - POST /login started (username: test)
+[2021-08-25T13:04:34.655] [ERROR] default - POST /login ERROR: Wrong credentials!
+[2021-08-25T13:05:09.140] [INFO] default - GET /categories started.
+[2021-08-25T13:05:09.141] [INFO] default - GET /posts started.
+[2021-08-25T13:05:09.162] [INFO] default - GET /categories finished successfully.
+[2021-08-25T13:05:09.170] [INFO] default - GET /posts finished successfully.
+[2021-08-25T13:05:10.720] [INFO] default - POST /login started (username: test)
+[2021-08-25T13:05:10.857] [ERROR] default - POST /login ERROR: Wrong credentials!
+[2021-08-25T13:06:17.909] [INFO] default - GET /categories started.
+[2021-08-25T13:06:17.927] [INFO] default - GET /posts started.
+[2021-08-25T13:06:17.931] [INFO] default - GET /categories finished successfully.
+[2021-08-25T13:06:17.953] [INFO] default - GET /posts finished successfully.
+[2021-08-25T13:06:19.960] [INFO] default - POST /login started (username: test)
+[2021-08-25T13:06:20.088] [ERROR] default - POST /login ERROR: Wrong credentials!
+[2021-08-25T13:06:20.524] [INFO] default - GET /categories started.
+[2021-08-25T13:06:20.541] [INFO] default - GET /posts started.
+[2021-08-25T13:06:20.550] [INFO] default - GET /categories finished successfully.
+[2021-08-25T13:06:20.567] [INFO] default - GET /posts finished successfully.
+[2021-08-25T13:06:21.658] [INFO] default - POST /login started (username: test)
+[2021-08-25T13:06:21.775] [INFO] default - POST /login finished successfully.
+[2021-08-25T13:06:21.871] [INFO] default - GET /categories started.
+[2021-08-25T13:06:21.887] [INFO] default - GET /posts started.
+[2021-08-25T13:06:21.892] [INFO] default - GET /categories finished successfully.
+[2021-08-25T13:06:21.912] [INFO] default - GET /posts finished successfully.
+[2021-08-25T13:06:22.345] [INFO] default - GET /categories started.
+[2021-08-25T13:06:22.359] [INFO] default - GET /posts started.
+[2021-08-25T13:06:22.372] [INFO] default - GET /categories finished successfully.
+[2021-08-25T13:06:22.388] [INFO] default - GET /posts finished successfully.
+[2021-08-25T13:06:24.031] [INFO] default - POST /register started (username: test222, email: )
+[2021-08-25T13:06:24.131] [ERROR] default - POST /register ERROR: { Error: User validation failed: email: Path `email` is required.
+    at ValidationError.inspect (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/mongoose/lib/error/validation.js:47:26)
+    at formatValue (internal/util/inspect.js:491:31)
+    at inspect (internal/util/inspect.js:189:10)
+    at formatWithOptions (util.js:164:18)
+    at Object.format (util.js:72:10)
+    at basicLayout (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/log4js/lib/layouts.js:62:57)
+    at app (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/log4js/lib/appenders/file.js:64:23)
+    at categoryAppenders.forEach.appender (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/log4js/lib/log4js.js:42:5)
+    at Array.forEach (<anonymous>)
+    at sendLogEventToAppender (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/log4js/lib/log4js.js:41:21)
+    at listeners.forEach.l (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/log4js/lib/clustering.js:23:26)
+    at Array.forEach (<anonymous>)
+    at sendToListeners (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/log4js/lib/clustering.js:23:13)
+    at Object.send (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/log4js/lib/clustering.js:89:7)
+    at Logger._log (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/log4js/lib/logger.js:90:16)
+    at Logger.log (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/log4js/lib/logger.js:73:12)
+  errors:
+   { email:
+      { ValidatorError: Path `email` is required.
+          at validate (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/mongoose/lib/schematype.js:1270:13)
+          at /home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/mongoose/lib/schematype.js:1253:7
+          at Array.forEach (<anonymous>)
+          at SchemaString.SchemaType.doValidate (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/mongoose/lib/schematype.js:1198:14)
+          at /home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/mongoose/lib/document.js:2542:18
+          at process._tickCallback (internal/process/next_tick.js:61:11)
+        properties: [Object],
+        kind: 'required',
+        path: 'email',
+        value: '',
+        reason: undefined,
+        [Symbol(mongoose:validatorError)]: true } },
+  _message: 'User validation failed' }
+[2021-08-25T13:07:32.745] [INFO] default - GET /categories started.
+[2021-08-25T13:07:32.761] [INFO] default - GET /posts started.
+[2021-08-25T13:07:32.773] [INFO] default - GET /categories finished successfully.
+[2021-08-25T13:07:32.788] [INFO] default - GET /posts finished successfully.
+[2021-08-25T13:07:34.620] [INFO] default - POST /login started (username: test)
+[2021-08-25T13:07:34.750] [INFO] default - POST /login finished successfully.
+[2021-08-25T13:07:36.043] [INFO] default - POST /posts started.
+[2021-08-25T13:07:36.090] [INFO] default - POST /posts finished successfully (savedPost.title: test-abc)
+[2021-08-25T13:07:36.419] [INFO] default - GET /posts/:id started.
+[2021-08-25T13:07:36.427] [INFO] default - GET /categories started.
+[2021-08-25T13:07:36.453] [INFO] default - GET /posts/:id finished successfully (id: 6126247884a2aa39552717d2)
+[2021-08-25T13:07:36.454] [INFO] default - GET /categories finished successfully.
+[2021-08-25T13:07:37.031] [INFO] default - GET /categories started.
+[2021-08-25T13:07:37.038] [INFO] default - GET /posts started.
+[2021-08-25T13:07:37.054] [INFO] default - GET /categories finished successfully.
+[2021-08-25T13:07:37.064] [INFO] default - GET /posts finished successfully.
+[2021-08-25T13:07:38.109] [INFO] default - POST /login started (username: test)
+[2021-08-25T13:07:38.260] [INFO] default - POST /login finished successfully.
+[2021-08-25T13:07:38.596] [INFO] default - POST /posts started.
+[2021-08-25T13:07:38.598] [ERROR] default - POST /posts ERROR: { Error: Post validation failed: desc: Path `desc` is required.
+    at ValidationError.inspect (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/mongoose/lib/error/validation.js:47:26)
+    at formatValue (internal/util/inspect.js:491:31)
+    at inspect (internal/util/inspect.js:189:10)
+    at formatWithOptions (util.js:164:18)
+    at Object.format (util.js:72:10)
+    at basicLayout (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/log4js/lib/layouts.js:62:57)
+    at app (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/log4js/lib/appenders/file.js:64:23)
+    at categoryAppenders.forEach.appender (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/log4js/lib/log4js.js:42:5)
+    at Array.forEach (<anonymous>)
+    at sendLogEventToAppender (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/log4js/lib/log4js.js:41:21)
+    at listeners.forEach.l (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/log4js/lib/clustering.js:23:26)
+    at Array.forEach (<anonymous>)
+    at sendToListeners (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/log4js/lib/clustering.js:23:13)
+    at Object.send (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/log4js/lib/clustering.js:89:7)
+    at Logger._log (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/log4js/lib/logger.js:90:16)
+    at Logger.log (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/log4js/lib/logger.js:73:12)
+  errors:
+   { desc:
+      { ValidatorError: Path `desc` is required.
+          at validate (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/mongoose/lib/schematype.js:1270:13)
+          at /home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/mongoose/lib/schematype.js:1253:7
+          at Array.forEach (<anonymous>)
+          at SchemaString.SchemaType.doValidate (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/mongoose/lib/schematype.js:1198:14)
+          at /home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/mongoose/lib/document.js:2542:18
+          at process._tickCallback (internal/process/next_tick.js:61:11)
+        properties: [Object],
+        kind: 'required',
+        path: 'desc',
+        value: '',
+        reason: undefined,
+        [Symbol(mongoose:validatorError)]: true } },
+  _message: 'Post validation failed' }
+[2021-08-25T13:07:39.328] [INFO] default - GET /categories started.
+[2021-08-25T13:07:39.339] [INFO] default - GET /posts started.
+[2021-08-25T13:07:39.351] [INFO] default - GET /categories finished successfully.
+[2021-08-25T13:07:39.374] [INFO] default - GET /posts finished successfully.
+[2021-08-25T13:07:40.447] [INFO] default - POST /login started (username: test)
+[2021-08-25T13:07:40.567] [INFO] default - POST /login finished successfully.
+[2021-08-25T13:07:40.642] [INFO] default - GET /categories started.
+[2021-08-25T13:07:40.655] [INFO] default - GET /posts started.
+[2021-08-25T13:07:40.744] [INFO] default - GET /categories finished successfully.
+[2021-08-25T13:07:40.749] [INFO] default - GET /posts finished successfully.
+[2021-08-25T13:07:40.959] [INFO] default - GET /posts/:id started.
+[2021-08-25T13:07:40.966] [INFO] default - GET /categories started.
+[2021-08-25T13:07:40.980] [INFO] default - GET /posts/:id finished successfully (id: 6126247884a2aa39552717d2)
+[2021-08-25T13:07:40.988] [INFO] default - GET /categories finished successfully.
+[2021-08-25T13:07:41.766] [INFO] default - PUT /posts/:id started.
+[2021-08-25T13:07:41.822] [INFO] default - PUT /posts/:id finished successfully (updatedPost.title: test-abc)
+[2021-08-25T13:07:41.896] [INFO] default - GET /categories started.
+[2021-08-25T13:07:41.905] [INFO] default - GET /posts started.
+[2021-08-25T13:07:41.918] [INFO] default - GET /categories finished successfully.
+[2021-08-25T13:07:41.931] [INFO] default - GET /posts finished successfully.
+[2021-08-25T13:07:42.348] [INFO] default - GET /categories started.
+[2021-08-25T13:07:42.357] [INFO] default - GET /posts started.
+[2021-08-25T13:07:42.370] [INFO] default - GET /categories finished successfully.
+[2021-08-25T13:07:42.384] [INFO] default - GET /posts finished successfully.
+[2021-08-25T13:07:43.388] [INFO] default - POST /login started (username: test)
+[2021-08-25T13:07:43.508] [INFO] default - POST /login finished successfully.
+[2021-08-25T13:07:43.564] [INFO] default - GET /categories started.
+[2021-08-25T13:07:43.580] [INFO] default - GET /posts started.
+[2021-08-25T13:07:43.587] [INFO] default - GET /categories finished successfully.
+[2021-08-25T13:07:43.605] [INFO] default - GET /posts finished successfully.
+[2021-08-25T13:07:44.036] [INFO] default - GET /posts/:id started.
+[2021-08-25T13:07:44.044] [INFO] default - GET /categories started.
+[2021-08-25T13:07:44.059] [INFO] default - GET /posts/:id finished successfully (id: 6126247884a2aa39552717d2)
+[2021-08-25T13:07:44.069] [INFO] default - GET /categories finished successfully.
+[2021-08-25T13:07:44.185] [INFO] default - DELETE /posts/:id started.
+[2021-08-25T13:07:44.235] [INFO] default - DELETE /posts/:id finished successfully (id: 6126247884a2aa39552717d2)
+[2021-08-25T13:07:44.493] [INFO] default - GET /categories started.
+[2021-08-25T13:07:44.500] [INFO] default - GET /posts started.
+[2021-08-25T13:07:44.527] [INFO] default - GET /categories finished successfully.
+[2021-08-25T13:07:44.531] [INFO] default - GET /posts finished successfully.
+[2021-08-25T13:14:06.931] [INFO] default - GET /categories started.
+[2021-08-25T13:14:06.950] [INFO] default - GET /posts started.
+[2021-08-25T13:14:06.985] [INFO] default - GET /categories finished successfully.
+[2021-08-25T13:14:07.028] [INFO] default - GET /posts finished successfully.
+[2021-08-25T13:15:16.833] [INFO] default - GET /categories started.
+[2021-08-25T13:15:16.864] [INFO] default - GET /posts started.
+[2021-08-25T13:15:16.927] [INFO] default - GET /posts finished successfully.
+[2021-08-25T13:15:16.933] [INFO] default - GET /categories finished successfully.
+[2021-08-25T13:46:00.630] [INFO] default - GET /categories started.
+[2021-08-25T13:46:00.639] [INFO] default - GET /posts started.
+[2021-08-25T13:46:00.658] [INFO] default - GET /categories finished successfully.
+[2021-08-25T13:46:00.668] [INFO] default - GET /posts finished successfully.
+[2021-08-25T13:46:05.918] [INFO] default - GET /posts/:id started.
+[2021-08-25T13:46:05.926] [INFO] default - GET /categories started.
+[2021-08-25T13:46:05.950] [INFO] default - GET /posts/:id finished successfully (id: 6122d2c4a1259410ca42369a)
+[2021-08-25T13:46:05.953] [INFO] default - GET /categories finished successfully.
+[2021-08-25T13:46:26.145] [INFO] default - POST /posts started.
+[2021-08-25T13:46:26.185] [INFO] default - POST /posts finished successfully (savedPost.title: 123321)
+[2021-08-25T13:46:27.048] [INFO] default - GET /posts/:id started.
+[2021-08-25T13:46:27.050] [INFO] default - GET /categories started.
+[2021-08-25T13:46:27.077] [INFO] default - GET /posts/:id finished successfully (id: 61262d9248ba364547a68d2e)
+[2021-08-25T13:46:27.078] [INFO] default - GET /categories finished successfully.
+[2021-08-25T13:46:31.117] [INFO] default - GET /categories started.
+[2021-08-25T13:46:31.123] [INFO] default - GET /posts started.
+[2021-08-25T13:46:31.147] [INFO] default - GET /categories finished successfully.
+[2021-08-25T13:46:31.153] [INFO] default - GET /posts finished successfully.
+[2021-08-25T13:46:33.843] [INFO] default - GET /posts/:id started.
+[2021-08-25T13:46:33.846] [INFO] default - GET /categories started.
+[2021-08-25T13:46:33.866] [INFO] default - GET /posts/:id finished successfully (id: 61262d9248ba364547a68d2e)
+[2021-08-25T13:46:33.867] [INFO] default - GET /categories finished successfully.
+[2021-08-25T13:46:48.769] [INFO] default - PUT /posts/:id started.
+[2021-08-25T13:46:48.833] [INFO] default - PUT /posts/:id finished successfully (updatedPost.title: #123321)
+[2021-08-25T13:46:57.069] [INFO] default - DELETE /posts/:id started.
+[2021-08-25T13:46:57.119] [INFO] default - DELETE /posts/:id finished successfully (id: 61262d9248ba364547a68d2e)
+[2021-08-25T13:46:57.810] [INFO] default - GET /categories started.
+[2021-08-25T13:46:57.812] [INFO] default - GET /posts started.
+[2021-08-25T13:46:57.837] [INFO] default - GET /categories finished successfully.
+[2021-08-25T13:46:57.860] [INFO] default - GET /posts finished successfully.
+[2021-08-25T13:49:58.933] [INFO] default - POST /posts started.
+[2021-08-25T13:49:58.970] [INFO] default - POST /posts finished successfully (savedPost.title: xy)
+[2021-08-25T13:50:00.002] [INFO] default - GET /posts/:id started.
+[2021-08-25T13:50:00.007] [INFO] default - GET /categories started.
+[2021-08-25T13:50:00.027] [INFO] default - GET /posts/:id finished successfully (id: 61262e6648ba364547a68d3c)
+[2021-08-25T13:50:00.038] [INFO] default - GET /categories finished successfully.
+[2021-08-25T13:50:02.487] [INFO] default - GET /categories started.
+[2021-08-25T13:50:02.492] [INFO] default - GET /posts started.
+[2021-08-25T13:50:02.512] [INFO] default - GET /categories finished successfully.
+[2021-08-25T13:50:02.521] [INFO] default - GET /posts finished successfully.
+[2021-08-25T13:50:05.905] [INFO] default - GET /posts/:id started.
+[2021-08-25T13:50:05.912] [INFO] default - GET /categories started.
+[2021-08-25T13:50:05.935] [INFO] default - GET /posts/:id finished successfully (id: 61262e6648ba364547a68d3c)
+[2021-08-25T13:50:05.953] [INFO] default - GET /categories finished successfully.
+[2021-08-25T13:50:34.581] [INFO] default - PUT /posts/:id started.
+[2021-08-25T13:50:34.636] [INFO] default - PUT /posts/:id finished successfully (updatedPost.title: xy)
+[2021-08-25T13:50:40.166] [INFO] default - GET /categories started.
+[2021-08-25T13:50:40.188] [INFO] default - GET /categories finished successfully.
+[2021-08-25T13:51:16.878] [INFO] default - PUT /users/:id started.
+[2021-08-25T13:51:17.003] [INFO] default - PUT /users/:id finished successfully (updatedUser: { profilePic: '1629892276600pexels-photo-1020315.jpeg',
+  _id: 6122bde1e0af9377ef519ed5,
+  username: 'test',
+  email: 'test@test.com',
+  password:
+   '$2b$10$wDN2n5Am8SenmwuWqjB6dOvmGreYEYRW0zHC3R5WaSnsr866rjO7C',
+  createdAt: 2021-08-22T21:13:05.955Z,
+  updatedAt: 2021-08-25T11:51:16.968Z,
+  __v: 0 })
+[2021-08-25T13:51:21.981] [INFO] default - GET /categories started.
+[2021-08-25T13:51:21.984] [INFO] default - GET /posts started.
+[2021-08-25T13:51:22.003] [INFO] default - GET /categories finished successfully.
+[2021-08-25T13:51:22.010] [INFO] default - GET /posts finished successfully.
+[2021-08-25T14:12:53.496] [INFO] default - GET /categories started.
+[2021-08-25T14:12:53.499] [INFO] default - GET /posts started.
+[2021-08-25T14:12:53.524] [INFO] default - GET /categories finished successfully.
+[2021-08-25T14:12:53.529] [INFO] default - GET /posts finished successfully.
+[2021-08-25T14:13:18.333] [INFO] default - GET /categories started.
+[2021-08-25T14:13:18.343] [INFO] default - GET /posts started.
+[2021-08-25T14:13:18.360] [INFO] default - GET /categories finished successfully.
+[2021-08-25T14:13:18.377] [INFO] default - GET /posts finished successfully.
+[2021-08-25T14:13:23.001] [INFO] default - GET /posts/:id started.
+[2021-08-25T14:13:23.025] [INFO] default - GET /posts/:id finished successfully (id: 61262e6648ba364547a68d3c)
+[2021-08-25T14:13:23.038] [INFO] default - GET /categories started.
+[2021-08-25T14:13:23.061] [INFO] default - GET /categories finished successfully.
+[2021-08-25T14:13:35.695] [INFO] default - PUT /posts/:id started.
+[2021-08-25T14:13:35.742] [INFO] default - PUT /posts/:id finished successfully (updatedPost.title: xy-mnm)
+[2021-08-25T14:14:01.795] [INFO] default - POST /posts started.
+[2021-08-25T14:14:01.826] [INFO] default - POST /posts finished successfully (savedPost.title: abc-xy)
+[2021-08-25T14:14:02.615] [INFO] default - GET /posts/:id started.
+[2021-08-25T14:14:02.619] [INFO] default - GET /categories started.
+[2021-08-25T14:14:02.648] [INFO] default - GET /posts/:id finished successfully (id: 6126340948ba364547a68d52)
+[2021-08-25T14:14:02.655] [INFO] default - GET /categories finished successfully.
+[2021-08-25T14:14:06.507] [INFO] default - GET /categories started.
+[2021-08-25T14:14:06.513] [INFO] default - GET /posts started.
+[2021-08-25T14:14:06.532] [INFO] default - GET /categories finished successfully.
+[2021-08-25T14:14:06.545] [INFO] default - GET /posts finished successfully.
+[2021-08-25T14:24:26.527] [INFO] default - GET /categories started.
+[2021-08-25T14:24:26.537] [INFO] default - GET /posts started.
+[2021-08-25T14:24:26.558] [INFO] default - GET /categories finished successfully.
+[2021-08-25T14:24:26.567] [INFO] default - GET /posts finished successfully.
+[2021-08-25T14:24:31.174] [INFO] default - GET /posts/:id started.
+[2021-08-25T14:24:31.177] [INFO] default - GET /categories started.
+[2021-08-25T14:24:31.201] [INFO] default - GET /posts/:id finished successfully (id: 6126340948ba364547a68d52)
+[2021-08-25T14:24:31.203] [INFO] default - GET /categories finished successfully.
+[2021-08-25T14:24:42.356] [INFO] default - PUT /posts/:id started.
+[2021-08-25T14:24:42.407] [INFO] default - PUT /posts/:id finished successfully (updatedPost.title: abc-xy)
+[2021-08-25T14:24:50.588] [INFO] default - POST /login started (username: test)
+[2021-08-25T14:24:50.696] [INFO] default - POST /login finished successfully.
+[2021-08-25T14:24:50.731] [INFO] default - GET /categories started.
+[2021-08-25T14:24:50.738] [INFO] default - GET /posts started.
+[2021-08-25T14:24:50.754] [INFO] default - GET /categories finished successfully.
+[2021-08-25T14:24:50.765] [INFO] default - GET /posts finished successfully.
+[2021-08-25T14:26:48.541] [INFO] default - GET /categories started.
+[2021-08-25T14:26:48.548] [INFO] default - GET /posts started.
+[2021-08-25T14:26:48.564] [INFO] default - GET /categories finished successfully.
+[2021-08-25T14:26:48.573] [INFO] default - GET /posts finished successfully.
+[2021-08-25T14:27:00.777] [INFO] default - GET /posts/:id started.
+[2021-08-25T14:27:00.796] [INFO] default - GET /categories started.
+[2021-08-25T14:27:00.798] [INFO] default - GET /posts/:id finished successfully (id: 61262e6648ba364547a68d3c)
+[2021-08-25T14:27:00.824] [INFO] default - GET /categories finished successfully.
+[2021-08-25T14:27:25.778] [INFO] default - PUT /posts/:id started.
+[2021-08-25T14:27:25.828] [INFO] default - PUT /posts/:id finished successfully (updatedPost.title: xy-mnm.)
+[2021-08-25T14:30:18.082] [INFO] default - GET /posts/:id started.
+[2021-08-25T14:30:18.086] [INFO] default - GET /categories started.
+[2021-08-25T14:30:18.109] [INFO] default - GET /posts/:id finished successfully (id: 61262e6648ba364547a68d3c)
+[2021-08-25T14:30:18.110] [INFO] default - GET /categories finished successfully.
+[2021-08-25T14:30:20.780] [INFO] default - GET /categories started.
+[2021-08-25T14:30:20.782] [INFO] default - GET /posts started.
+[2021-08-25T14:30:20.803] [INFO] default - GET /categories finished successfully.
+[2021-08-25T14:30:20.807] [INFO] default - GET /posts finished successfully.
+[2021-08-25T14:30:24.493] [INFO] default - GET /posts/:id started.
+[2021-08-25T14:30:24.498] [INFO] default - GET /categories started.
+[2021-08-25T14:30:24.516] [INFO] default - GET /posts/:id finished successfully (id: 6126340948ba364547a68d52)
+[2021-08-25T14:30:24.526] [INFO] default - GET /categories finished successfully.
+[2021-08-25T14:30:36.299] [INFO] default - POST /login started (username: test)
+[2021-08-25T14:30:36.420] [INFO] default - POST /login finished successfully.
+[2021-08-25T14:30:36.542] [INFO] default - GET /categories started.
+[2021-08-25T14:30:36.581] [INFO] default - GET /categories finished successfully.
+[2021-08-25T14:30:36.598] [INFO] default - GET /posts started.
+[2021-08-25T14:30:36.623] [INFO] default - GET /posts finished successfully.
+[2021-08-25T14:30:41.939] [INFO] default - GET /posts/:id started.
+[2021-08-25T14:30:41.941] [INFO] default - GET /categories started.
+[2021-08-25T14:30:41.963] [INFO] default - GET /posts/:id finished successfully (id: 6126340948ba364547a68d52)
+[2021-08-25T14:30:41.964] [INFO] default - GET /categories finished successfully.
+[2021-08-25T14:30:51.087] [INFO] default - PUT /posts/:id started.
+[2021-08-25T14:30:51.142] [INFO] default - PUT /posts/:id finished successfully (updatedPost.title: abc-xy)
+[2021-08-25T14:30:53.294] [INFO] default - GET /categories started.
+[2021-08-25T14:30:53.309] [INFO] default - GET /posts started.
+[2021-08-25T14:30:53.315] [INFO] default - GET /categories finished successfully.
+[2021-08-25T14:30:53.337] [INFO] default - GET /posts finished successfully.
+[2021-08-25T14:32:17.599] [INFO] default - GET /categories started.
+[2021-08-25T14:32:17.601] [INFO] default - GET /posts started.
+[2021-08-25T14:32:17.627] [INFO] default - GET /categories finished successfully.
+[2021-08-25T14:32:17.639] [INFO] default - GET /posts finished successfully.
+[2021-08-25T14:32:30.638] [INFO] default - GET /categories started.
+[2021-08-25T14:32:30.644] [INFO] default - GET /posts started.
+[2021-08-25T14:32:30.671] [INFO] default - GET /categories finished successfully.
+[2021-08-25T14:32:30.682] [INFO] default - GET /posts finished successfully.
+[2021-08-25T14:32:42.330] [INFO] default - GET /categories started.
+[2021-08-25T14:32:42.340] [INFO] default - GET /posts started.
+[2021-08-25T14:32:42.373] [INFO] default - GET /categories finished successfully.
+[2021-08-25T14:32:42.393] [INFO] default - GET /posts finished successfully.
+[2021-08-25T14:33:48.324] [INFO] default - GET /categories started.
+[2021-08-25T14:33:48.326] [INFO] default - GET /posts started.
+[2021-08-25T14:33:48.347] [INFO] default - GET /categories finished successfully.
+[2021-08-25T14:33:48.351] [INFO] default - GET /posts finished successfully.
+[2021-08-25T14:34:17.831] [INFO] default - GET /categories started.
+[2021-08-25T14:34:17.833] [INFO] default - GET /posts started.
+[2021-08-25T14:34:17.857] [INFO] default - GET /posts finished successfully.
+[2021-08-25T14:34:17.859] [INFO] default - GET /categories finished successfully.
+[2021-08-25T14:34:26.134] [INFO] default - GET /posts/:id started.
+[2021-08-25T14:34:26.138] [INFO] default - GET /categories started.
+[2021-08-25T14:34:26.161] [INFO] default - GET /categories finished successfully.
+[2021-08-25T14:34:26.163] [INFO] default - GET /posts/:id finished successfully (id: 6126340948ba364547a68d52)
+[2021-08-25T14:34:37.448] [INFO] default - PUT /posts/:id started.
+[2021-08-25T14:34:37.506] [INFO] default - PUT /posts/:id finished successfully (updatedPost.title: abc-xy)
+[2021-08-25T14:34:38.950] [INFO] default - GET /categories started.
+[2021-08-25T14:34:38.951] [INFO] default - GET /posts started.
+[2021-08-25T14:34:38.971] [INFO] default - GET /categories finished successfully.
+[2021-08-25T14:34:38.975] [INFO] default - GET /posts finished successfully.
+[2021-08-25T14:34:46.630] [INFO] default - POST /login started (username: test)
+[2021-08-25T14:34:46.743] [INFO] default - POST /login finished successfully.
+[2021-08-25T14:34:46.859] [INFO] default - GET /categories started.
+[2021-08-25T14:34:46.861] [INFO] default - GET /posts started.
+[2021-08-25T14:34:46.880] [INFO] default - GET /categories finished successfully.
+[2021-08-25T14:34:46.884] [INFO] default - GET /posts finished successfully.
+[2021-08-25T14:35:43.321] [INFO] default - GET /categories started.
+[2021-08-25T14:35:43.325] [INFO] default - GET /posts started.
+[2021-08-25T14:35:43.349] [INFO] default - GET /posts finished successfully.
+[2021-08-25T14:35:43.352] [INFO] default - GET /categories finished successfully.
+[2021-08-25T14:42:06.172] [INFO] default - POST /login started (username: test)
+[2021-08-25T14:42:06.284] [INFO] default - POST /login finished successfully.
+[2021-08-25T14:42:06.427] [INFO] default - GET /categories started.
+[2021-08-25T14:42:06.428] [INFO] default - GET /posts started.
+[2021-08-25T14:42:06.471] [INFO] default - GET /posts finished successfully.
+[2021-08-25T14:42:06.472] [INFO] default - GET /categories finished successfully.
+[2021-08-25T14:43:12.137] [INFO] default - POST /login started (username: test)
+[2021-08-25T14:43:12.273] [INFO] default - POST /login finished successfully.
+[2021-08-25T14:43:12.371] [INFO] default - GET /categories started.
+[2021-08-25T14:43:12.373] [INFO] default - GET /posts started.
+[2021-08-25T14:43:12.393] [INFO] default - GET /categories finished successfully.
+[2021-08-25T14:43:12.398] [INFO] default - GET /posts finished successfully.
+[2021-08-25T14:46:09.872] [INFO] default - GET /categories started.
+[2021-08-25T14:46:09.875] [INFO] default - GET /posts started.
+[2021-08-25T14:46:09.895] [INFO] default - GET /categories finished successfully.
+[2021-08-25T14:46:09.899] [INFO] default - GET /posts finished successfully.
+[2021-08-25T14:50:00.694] [INFO] default - GET /categories started.
+[2021-08-25T14:50:00.695] [INFO] default - GET /posts started.
+[2021-08-25T14:50:00.713] [INFO] default - GET /posts finished successfully.
+[2021-08-25T14:50:00.722] [INFO] default - GET /categories finished successfully.
+[2021-08-25T14:50:13.014] [INFO] default - POST /login started (username: test)
+[2021-08-25T14:50:13.124] [INFO] default - POST /login finished successfully.
+[2021-08-25T14:50:13.164] [INFO] default - GET /categories started.
+[2021-08-25T14:50:13.171] [INFO] default - GET /posts started.
+[2021-08-25T14:50:13.187] [INFO] default - GET /categories finished successfully.
+[2021-08-25T14:50:13.193] [INFO] default - GET /posts finished successfully.
+[2021-08-25T14:50:19.947] [INFO] default - GET /posts/:id started.
+[2021-08-25T14:50:19.966] [INFO] default - GET /categories started.
+[2021-08-25T14:50:19.972] [INFO] default - GET /posts/:id finished successfully (id: 6126340948ba364547a68d52)
+[2021-08-25T14:50:19.996] [INFO] default - GET /categories finished successfully.
+[2021-08-25T14:50:36.322] [INFO] default - PUT /posts/:id started.
+[2021-08-25T14:50:36.370] [INFO] default - PUT /posts/:id finished successfully (updatedPost.title: abc-xy-)
+[2021-08-25T14:55:49.379] [INFO] default - GET /categories started.
+[2021-08-25T14:55:49.401] [INFO] default - GET /categories finished successfully.
+[2021-08-25T14:55:49.425] [INFO] default - GET /posts started.
+[2021-08-25T14:55:49.447] [INFO] default - GET /posts finished successfully.
+[2021-08-25T14:55:51.865] [INFO] default - GET /posts/:id started.
+[2021-08-25T14:55:51.867] [INFO] default - GET /categories started.
+[2021-08-25T14:55:51.889] [INFO] default - GET /categories finished successfully.
+[2021-08-25T14:55:51.890] [INFO] default - GET /posts/:id finished successfully (id: 61262e6648ba364547a68d3c)
+[2021-08-25T14:55:58.785] [INFO] default - PUT /posts/:id started.
+[2021-08-25T14:55:58.836] [INFO] default - PUT /posts/:id finished successfully (updatedPost.title: xy-mnm.)
+[2021-08-25T14:56:02.443] [INFO] default - GET /posts/:id started.
+[2021-08-25T14:56:02.445] [INFO] default - GET /categories started.
+[2021-08-25T14:56:02.461] [INFO] default - GET /categories finished successfully.
+[2021-08-25T14:56:02.470] [INFO] default - GET /posts/:id finished successfully (id: 61262e6648ba364547a68d3c)
+[2021-08-25T14:57:01.816] [INFO] default - GET /posts/:id started.
+[2021-08-25T14:57:01.818] [INFO] default - GET /categories started.
+[2021-08-25T14:57:01.834] [INFO] default - GET /posts/:id finished successfully (id: 61262e6648ba364547a68d3c)
+[2021-08-25T14:57:01.840] [INFO] default - GET /categories finished successfully.
+[2021-08-25T14:57:13.146] [INFO] default - PUT /posts/:id started.
+[2021-08-25T14:57:13.197] [INFO] default - PUT /posts/:id finished successfully (updatedPost.title: xy-mnm)
+[2021-08-25T14:57:14.722] [INFO] default - GET /categories started.
+[2021-08-25T14:57:14.749] [INFO] default - GET /categories finished successfully.
+[2021-08-25T14:57:14.762] [INFO] default - GET /posts started.
+[2021-08-25T14:57:14.788] [INFO] default - GET /posts finished successfully.
+[2021-08-25T14:57:17.512] [INFO] default - GET /posts/:id started.
+[2021-08-25T14:57:17.515] [INFO] default - GET /categories started.
+[2021-08-25T14:57:17.536] [INFO] default - GET /posts/:id finished successfully (id: 6126340948ba364547a68d52)
+[2021-08-25T14:57:17.547] [INFO] default - GET /categories finished successfully.
+[2021-08-25T15:00:14.808] [INFO] default - GET /categories started.
+[2021-08-25T15:00:14.843] [INFO] default - GET /categories finished successfully.
+[2021-08-25T15:00:20.806] [INFO] default - GET /categories started.
+[2021-08-25T15:00:20.814] [INFO] default - GET /posts started.
+[2021-08-25T15:00:20.838] [INFO] default - GET /categories finished successfully.
+[2021-08-25T15:00:20.841] [INFO] default - GET /posts finished successfully.
+[2021-08-25T15:03:29.703] [INFO] default - GET /categories started.
+[2021-08-25T15:03:29.730] [INFO] default - GET /categories finished successfully.
+[2021-08-25T15:03:32.131] [INFO] default - GET /categories started.
+[2021-08-25T15:03:32.133] [INFO] default - GET /posts started.
+[2021-08-25T15:03:32.154] [INFO] default - GET /categories finished successfully.
+[2021-08-25T15:03:32.162] [INFO] default - GET /posts finished successfully.
+[2021-08-25T15:42:00.820] [INFO] default - GET /categories started.
+[2021-08-25T15:42:00.822] [INFO] default - GET /posts started.
+[2021-08-25T15:42:00.850] [INFO] default - GET /categories finished successfully.
+[2021-08-25T15:42:00.860] [INFO] default - GET /posts finished successfully.
+[2021-08-25T15:42:07.418] [INFO] default - GET /posts/:id started.
+[2021-08-25T15:42:07.420] [INFO] default - GET /categories started.
+[2021-08-25T15:42:07.440] [INFO] default - GET /posts/:id finished successfully (id: 6126340948ba364547a68d52)
+[2021-08-25T15:42:07.441] [INFO] default - GET /categories finished successfully.
+[2021-08-25T15:42:14.100] [INFO] default - GET /posts/:id started.
+[2021-08-25T15:42:14.102] [INFO] default - GET /categories started.
+[2021-08-25T15:42:14.127] [INFO] default - GET /posts/:id finished successfully (id: 6126340948ba364547a68d52)
+[2021-08-25T15:42:14.131] [INFO] default - GET /categories finished successfully.
+[2021-08-25T15:42:24.037] [INFO] default - PUT /posts/:id started.
+[2021-08-25T15:42:24.151] [INFO] default - PUT /posts/:id finished successfully (updatedPost.title: abc-xy)
+[2021-08-25T15:42:26.533] [INFO] default - GET /categories started.
+[2021-08-25T15:42:26.536] [INFO] default - GET /posts started.
+[2021-08-25T15:42:26.555] [INFO] default - GET /categories finished successfully.
+[2021-08-25T15:42:26.558] [INFO] default - GET /posts finished successfully.
+[2021-08-25T15:42:53.761] [INFO] default - POST /posts started.
+[2021-08-25T15:42:53.788] [INFO] default - POST /posts finished successfully (savedPost.title: test-mk)
+[2021-08-25T15:42:54.738] [INFO] default - GET /posts/:id started.
+[2021-08-25T15:42:54.762] [INFO] default - GET /posts/:id finished successfully (id: 612648dd48ba364547a68dbc)
+[2021-08-25T15:42:54.778] [INFO] default - GET /categories started.
+[2021-08-25T15:42:54.807] [INFO] default - GET /categories finished successfully.
+[2021-08-25T15:42:59.762] [INFO] default - GET /categories started.
+[2021-08-25T15:42:59.766] [INFO] default - GET /posts started.
+[2021-08-25T15:42:59.785] [INFO] default - GET /categories finished successfully.
+[2021-08-25T15:42:59.791] [INFO] default - GET /posts finished successfully.
+[2021-08-25T15:45:03.735] [INFO] default - GET /categories started.
+[2021-08-25T15:45:03.737] [INFO] default - GET /posts started.
+[2021-08-25T15:45:03.762] [INFO] default - GET /posts finished successfully.
+[2021-08-25T15:45:03.765] [INFO] default - GET /categories finished successfully.
+[2021-08-25T15:45:08.582] [INFO] default - GET /posts/:id started.
+[2021-08-25T15:45:08.584] [INFO] default - GET /categories started.
+[2021-08-25T15:45:08.606] [INFO] default - GET /posts/:id finished successfully (id: 612648dd48ba364547a68dbc)
+[2021-08-25T15:45:08.607] [INFO] default - GET /categories finished successfully.
+[2021-08-25T15:45:17.472] [INFO] default - PUT /posts/:id started.
+[2021-08-25T15:45:17.522] [INFO] default - PUT /posts/:id finished successfully (updatedPost.title: -mk)
+[2021-08-25T15:45:20.818] [INFO] default - GET /categories started.
+[2021-08-25T15:45:20.832] [INFO] default - GET /posts started.
+[2021-08-25T15:45:20.840] [INFO] default - GET /categories finished successfully.
+[2021-08-25T15:45:20.858] [INFO] default - GET /posts finished successfully.
+[2021-08-25T15:45:24.353] [INFO] default - GET /posts/:id started.
+[2021-08-25T15:45:24.365] [INFO] default - GET /categories started.
+[2021-08-25T15:45:24.379] [INFO] default - GET /posts/:id finished successfully (id: 612648dd48ba364547a68dbc)
+[2021-08-25T15:45:24.399] [INFO] default - GET /categories finished successfully.
+[2021-08-25T15:45:26.778] [INFO] default - DELETE /posts/:id started.
+[2021-08-25T15:45:26.831] [INFO] default - DELETE /posts/:id finished successfully (id: 612648dd48ba364547a68dbc)
+[2021-08-25T15:45:27.745] [INFO] default - GET /categories started.
+[2021-08-25T15:45:27.747] [INFO] default - GET /posts started.
+[2021-08-25T15:45:27.768] [INFO] default - GET /categories finished successfully.
+[2021-08-25T15:45:27.777] [INFO] default - GET /posts finished successfully.
+[2021-08-25T15:48:10.967] [INFO] default - GET /categories started.
+[2021-08-25T15:48:10.973] [INFO] default - GET /posts started.
+[2021-08-25T15:48:11.002] [INFO] default - GET /categories finished successfully.
+[2021-08-25T15:48:11.016] [INFO] default - GET /posts finished successfully.
+[2021-08-25T15:48:15.737] [INFO] default - GET /posts/:id started.
+[2021-08-25T15:48:15.749] [INFO] default - GET /categories started.
+[2021-08-25T15:48:15.763] [INFO] default - GET /posts/:id finished successfully (id: 61262e6648ba364547a68d3c)
+[2021-08-25T15:48:15.772] [INFO] default - GET /categories finished successfully.
+[2021-08-25T15:48:25.228] [INFO] default - PUT /posts/:id started.
+[2021-08-25T15:48:25.287] [INFO] default - PUT /posts/:id finished successfully (updatedPost.title: xy-mnm)
+[2021-08-25T15:48:27.127] [INFO] default - GET /categories started.
+[2021-08-25T15:48:27.132] [INFO] default - GET /posts started.
+[2021-08-25T15:48:27.148] [INFO] default - GET /categories finished successfully.
+[2021-08-25T15:48:27.153] [INFO] default - GET /posts finished successfully.
+[2021-08-25T15:51:57.180] [INFO] default - POST /posts started.
+[2021-08-25T15:51:57.216] [INFO] default - POST /posts finished successfully (savedPost.title: Bild-Test)
+[2021-08-25T15:51:58.254] [INFO] default - GET /posts/:id started.
+[2021-08-25T15:51:58.275] [INFO] default - GET /categories started.
+[2021-08-25T15:51:58.302] [INFO] default - GET /posts/:id finished successfully (id: 61264afdf2d776624381a8fd)
+[2021-08-25T15:51:58.308] [INFO] default - GET /categories finished successfully.
+[2021-08-25T15:52:01.843] [INFO] default - GET /categories started.
+[2021-08-25T15:52:01.849] [INFO] default - GET /posts started.
+[2021-08-25T15:52:01.872] [INFO] default - GET /categories finished successfully.
+[2021-08-25T15:52:01.898] [INFO] default - GET /posts finished successfully.
+[2021-08-25T15:53:40.965] [INFO] default - GET /categories started.
+[2021-08-25T15:53:40.981] [INFO] default - GET /posts started.
+[2021-08-25T15:53:50.984] [ERROR] default - GET /categories ERROR: MongooseError: Operation `categories.find()` buffering timed out after 10000ms
+    at Timeout.setTimeout (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js:197:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+[2021-08-25T15:53:50.987] [ERROR] default - GET /posts ERROR: MongooseError: Operation `posts.find()` buffering timed out after 10000ms
+    at Timeout.setTimeout (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js:197:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+[2021-08-25T15:55:21.436] [INFO] default - GET /categories started.
+[2021-08-25T15:55:21.456] [INFO] default - GET /posts started.
+[2021-08-25T15:55:21.490] [INFO] default - GET /categories finished successfully.
+[2021-08-25T15:55:21.514] [INFO] default - GET /posts finished successfully.
+[2021-08-25T16:30:44.425] [INFO] default - GET /categories started.
+[2021-08-25T16:30:44.439] [INFO] default - GET /posts started.
+[2021-08-25T16:30:44.447] [INFO] default - GET /categories finished successfully.
+[2021-08-25T16:30:44.470] [INFO] default - GET /posts finished successfully.
+[2021-08-25T16:30:50.026] [INFO] default - POST /login started (username: test)
+[2021-08-25T16:30:50.176] [ERROR] default - POST /login ERROR: Wrong credentials!
+[2021-08-25T16:30:50.454] [INFO] default - GET /categories started.
+[2021-08-25T16:30:50.462] [INFO] default - GET /posts started.
+[2021-08-25T16:30:50.479] [INFO] default - GET /categories finished successfully.
+[2021-08-25T16:30:50.487] [INFO] default - GET /posts finished successfully.
+[2021-08-25T16:30:51.742] [INFO] default - POST /login started (username: test)
+[2021-08-25T16:30:51.877] [INFO] default - POST /login finished successfully.
+[2021-08-25T16:30:51.940] [INFO] default - GET /categories started.
+[2021-08-25T16:30:51.950] [INFO] default - GET /posts started.
+[2021-08-25T16:30:51.965] [INFO] default - GET /categories finished successfully.
+[2021-08-25T16:30:51.980] [INFO] default - GET /posts finished successfully.
+[2021-08-25T16:30:52.393] [INFO] default - GET /categories started.
+[2021-08-25T16:30:52.401] [INFO] default - GET /posts started.
+[2021-08-25T16:30:52.419] [INFO] default - GET /categories finished successfully.
+[2021-08-25T16:30:52.427] [INFO] default - GET /posts finished successfully.
+[2021-08-25T16:30:56.535] [INFO] default - POST /register started (username: test222, email: )
+[2021-08-25T16:30:56.651] [ERROR] default - POST /register ERROR: { Error: User validation failed: email: Path `email` is required.
+    at ValidationError.inspect (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/mongoose/lib/error/validation.js:47:26)
+    at formatValue (internal/util/inspect.js:491:31)
+    at inspect (internal/util/inspect.js:189:10)
+    at formatWithOptions (util.js:164:18)
+    at Object.format (util.js:72:10)
+    at basicLayout (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/log4js/lib/layouts.js:62:57)
+    at app (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/log4js/lib/appenders/file.js:64:23)
+    at categoryAppenders.forEach.appender (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/log4js/lib/log4js.js:42:5)
+    at Array.forEach (<anonymous>)
+    at sendLogEventToAppender (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/log4js/lib/log4js.js:41:21)
+    at listeners.forEach.l (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/log4js/lib/clustering.js:23:26)
+    at Array.forEach (<anonymous>)
+    at sendToListeners (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/log4js/lib/clustering.js:23:13)
+    at Object.send (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/log4js/lib/clustering.js:89:7)
+    at Logger._log (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/log4js/lib/logger.js:90:16)
+    at Logger.log (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/log4js/lib/logger.js:73:12)
+  errors:
+   { email:
+      { ValidatorError: Path `email` is required.
+          at validate (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/mongoose/lib/schematype.js:1270:13)
+          at /home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/mongoose/lib/schematype.js:1253:7
+          at Array.forEach (<anonymous>)
+          at SchemaString.SchemaType.doValidate (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/mongoose/lib/schematype.js:1198:14)
+          at /home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/mongoose/lib/document.js:2542:18
+          at process._tickCallback (internal/process/next_tick.js:61:11)
+        properties: [Object],
+        kind: 'required',
+        path: 'email',
+        value: '',
+        reason: undefined,
+        [Symbol(mongoose:validatorError)]: true } },
+  _message: 'User validation failed' }
+[2021-08-25T16:38:19.865] [INFO] default - GET /categories started.
+[2021-08-25T16:38:19.872] [INFO] default - GET /posts started.
+[2021-08-25T16:38:19.893] [INFO] default - GET /categories finished successfully.
+[2021-08-25T16:38:19.900] [INFO] default - GET /posts finished successfully.
+[2021-08-25T16:38:22.436] [INFO] default - POST /login started (username: test)
+[2021-08-25T16:38:22.562] [ERROR] default - POST /login ERROR: Wrong credentials!
+[2021-08-25T16:38:23.487] [INFO] default - GET /categories started.
+[2021-08-25T16:38:23.581] [INFO] default - GET /posts started.
+[2021-08-25T16:38:23.603] [INFO] default - GET /categories finished successfully.
+[2021-08-25T16:38:23.611] [INFO] default - GET /posts finished successfully.
+[2021-08-25T16:38:26.405] [INFO] default - POST /login started (username: test)
+[2021-08-25T16:38:26.523] [INFO] default - POST /login finished successfully.
+[2021-08-25T16:38:26.642] [INFO] default - GET /categories started.
+[2021-08-25T16:38:26.652] [INFO] default - GET /posts started.
+[2021-08-25T16:38:26.664] [INFO] default - GET /categories finished successfully.
+[2021-08-25T16:38:26.681] [INFO] default - GET /posts finished successfully.
+[2021-08-25T16:38:27.444] [INFO] default - GET /categories started.
+[2021-08-25T16:38:27.447] [INFO] default - GET /posts started.
+[2021-08-25T16:38:27.471] [INFO] default - GET /categories finished successfully.
+[2021-08-25T16:38:27.475] [INFO] default - GET /posts finished successfully.
+[2021-08-25T16:38:30.197] [INFO] default - POST /register started (username: test222, email: )
+[2021-08-25T16:38:30.301] [ERROR] default - POST /register ERROR: { Error: User validation failed: email: Path `email` is required.
+    at ValidationError.inspect (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/mongoose/lib/error/validation.js:47:26)
+    at formatValue (internal/util/inspect.js:491:31)
+    at inspect (internal/util/inspect.js:189:10)
+    at formatWithOptions (util.js:164:18)
+    at Object.format (util.js:72:10)
+    at basicLayout (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/log4js/lib/layouts.js:62:57)
+    at app (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/log4js/lib/appenders/file.js:64:23)
+    at categoryAppenders.forEach.appender (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/log4js/lib/log4js.js:42:5)
+    at Array.forEach (<anonymous>)
+    at sendLogEventToAppender (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/log4js/lib/log4js.js:41:21)
+    at listeners.forEach.l (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/log4js/lib/clustering.js:23:26)
+    at Array.forEach (<anonymous>)
+    at sendToListeners (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/log4js/lib/clustering.js:23:13)
+    at Object.send (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/log4js/lib/clustering.js:89:7)
+    at Logger._log (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/log4js/lib/logger.js:90:16)
+    at Logger.log (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/log4js/lib/logger.js:73:12)
+  errors:
+   { email:
+      { ValidatorError: Path `email` is required.
+          at validate (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/mongoose/lib/schematype.js:1270:13)
+          at /home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/mongoose/lib/schematype.js:1253:7
+          at Array.forEach (<anonymous>)
+          at SchemaString.SchemaType.doValidate (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/mongoose/lib/schematype.js:1198:14)
+          at /home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/mongoose/lib/document.js:2542:18
+          at process._tickCallback (internal/process/next_tick.js:61:11)
+        properties: [Object],
+        kind: 'required',
+        path: 'email',
+        value: '',
+        reason: undefined,
+        [Symbol(mongoose:validatorError)]: true } },
+  _message: 'User validation failed' }
+[2021-08-25T16:39:05.776] [INFO] default - GET /categories started.
+[2021-08-25T16:39:05.790] [INFO] default - GET /posts started.
+[2021-08-25T16:39:05.799] [INFO] default - GET /categories finished successfully.
+[2021-08-25T16:39:05.815] [INFO] default - GET /posts finished successfully.
+[2021-08-25T16:39:09.061] [INFO] default - POST /login started (username: test)
+[2021-08-25T16:39:09.187] [INFO] default - POST /login finished successfully.
+[2021-08-25T16:39:10.322] [INFO] default - POST /posts started.
+[2021-08-25T16:39:10.383] [INFO] default - POST /posts finished successfully (savedPost.title: test-abc)
+[2021-08-25T16:39:10.775] [INFO] default - GET /posts/:id started.
+[2021-08-25T16:39:10.786] [INFO] default - GET /categories started.
+[2021-08-25T16:39:10.801] [INFO] default - GET /posts/:id finished successfully (id: 6126560e9866e064fd513f18)
+[2021-08-25T16:39:10.808] [INFO] default - GET /categories finished successfully.
+[2021-08-25T16:39:11.332] [INFO] default - GET /categories started.
+[2021-08-25T16:39:11.344] [INFO] default - GET /posts started.
+[2021-08-25T16:39:11.360] [INFO] default - GET /categories finished successfully.
+[2021-08-25T16:39:11.371] [INFO] default - GET /posts finished successfully.
+[2021-08-25T16:39:12.443] [INFO] default - POST /login started (username: test)
+[2021-08-25T16:39:12.570] [INFO] default - POST /login finished successfully.
+[2021-08-25T16:39:12.904] [INFO] default - POST /posts started.
+[2021-08-25T16:39:12.905] [ERROR] default - POST /posts ERROR: { Error: Post validation failed: desc: Path `desc` is required.
+    at ValidationError.inspect (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/mongoose/lib/error/validation.js:47:26)
+    at formatValue (internal/util/inspect.js:491:31)
+    at inspect (internal/util/inspect.js:189:10)
+    at formatWithOptions (util.js:164:18)
+    at Object.format (util.js:72:10)
+    at basicLayout (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/log4js/lib/layouts.js:62:57)
+    at app (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/log4js/lib/appenders/file.js:64:23)
+    at categoryAppenders.forEach.appender (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/log4js/lib/log4js.js:42:5)
+    at Array.forEach (<anonymous>)
+    at sendLogEventToAppender (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/log4js/lib/log4js.js:41:21)
+    at listeners.forEach.l (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/log4js/lib/clustering.js:23:26)
+    at Array.forEach (<anonymous>)
+    at sendToListeners (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/log4js/lib/clustering.js:23:13)
+    at Object.send (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/log4js/lib/clustering.js:89:7)
+    at Logger._log (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/log4js/lib/logger.js:90:16)
+    at Logger.log (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/log4js/lib/logger.js:73:12)
+  errors:
+   { desc:
+      { ValidatorError: Path `desc` is required.
+          at validate (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/mongoose/lib/schematype.js:1270:13)
+          at /home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/mongoose/lib/schematype.js:1253:7
+          at Array.forEach (<anonymous>)
+          at SchemaString.SchemaType.doValidate (/home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/mongoose/lib/schematype.js:1198:14)
+          at /home/meris/Documents/PI-Master/Master-Arbeit/tmp/Untitled Folder/my-blog/api/node_modules/mongoose/lib/document.js:2542:18
+          at process._tickCallback (internal/process/next_tick.js:61:11)
+        properties: [Object],
+        kind: 'required',
+        path: 'desc',
+        value: '',
+        reason: undefined,
+        [Symbol(mongoose:validatorError)]: true } },
+  _message: 'Post validation failed' }
+[2021-08-25T16:39:13.270] [INFO] default - GET /categories started.
+[2021-08-25T16:39:13.278] [INFO] default - GET /posts started.
+[2021-08-25T16:39:13.300] [INFO] default - GET /categories finished successfully.
+[2021-08-25T16:39:13.305] [INFO] default - GET /posts finished successfully.
+[2021-08-25T16:39:14.550] [INFO] default - POST /login started (username: test)
+[2021-08-25T16:39:14.668] [INFO] default - POST /login finished successfully.
+[2021-08-25T16:39:14.745] [INFO] default - GET /categories started.
+[2021-08-25T16:39:14.760] [INFO] default - GET /posts started.
+[2021-08-25T16:39:14.769] [INFO] default - GET /categories finished successfully.
+[2021-08-25T16:39:14.784] [INFO] default - GET /posts finished successfully.
+[2021-08-25T16:39:15.911] [INFO] default - GET /posts/:id started.
+[2021-08-25T16:39:15.918] [INFO] default - GET /categories started.
+[2021-08-25T16:39:15.935] [INFO] default - GET /posts/:id finished successfully (id: 6126560e9866e064fd513f18)
+[2021-08-25T16:39:15.936] [INFO] default - GET /categories finished successfully.
+[2021-08-25T16:39:17.005] [INFO] default - PUT /posts/:id started.
+[2021-08-25T16:39:17.069] [INFO] default - PUT /posts/:id finished successfully (updatedPost.title: test-abc)
+[2021-08-25T16:39:17.229] [INFO] default - GET /categories started.
+[2021-08-25T16:39:17.240] [INFO] default - GET /posts started.
+[2021-08-25T16:39:17.254] [INFO] default - GET /categories finished successfully.
+[2021-08-25T16:39:17.258] [INFO] default - GET /posts finished successfully.
+[2021-08-25T16:39:17.710] [INFO] default - GET /categories started.
+[2021-08-25T16:39:17.713] [INFO] default - GET /posts started.
+[2021-08-25T16:39:17.732] [INFO] default - GET /categories finished successfully.
+[2021-08-25T16:39:17.737] [INFO] default - GET /posts finished successfully.
+[2021-08-25T16:39:19.188] [INFO] default - POST /login started (username: test)
+[2021-08-25T16:39:19.303] [INFO] default - POST /login finished successfully.
+[2021-08-25T16:39:19.364] [INFO] default - GET /categories started.
+[2021-08-25T16:39:19.390] [INFO] default - GET /categories finished successfully.
+[2021-08-25T16:39:19.394] [INFO] default - GET /posts started.
+[2021-08-25T16:39:19.424] [INFO] default - GET /posts finished successfully.
+[2021-08-25T16:39:19.739] [INFO] default - GET /posts/:id started.
+[2021-08-25T16:39:19.743] [INFO] default - GET /categories started.
+[2021-08-25T16:39:19.760] [INFO] default - GET /posts/:id finished successfully (id: 6126560e9866e064fd513f18)
+[2021-08-25T16:39:19.766] [INFO] default - GET /categories finished successfully.
+[2021-08-25T16:39:19.922] [INFO] default - DELETE /posts/:id started.
+[2021-08-25T16:39:19.972] [INFO] default - DELETE /posts/:id finished successfully (id: 6126560e9866e064fd513f18)
+[2021-08-25T16:39:20.163] [INFO] default - GET /categories started.
+[2021-08-25T16:39:20.178] [INFO] default - GET /posts started.
+[2021-08-25T16:39:20.180] [INFO] default - GET /categories finished successfully.
+[2021-08-25T16:39:20.211] [INFO] default - GET /posts finished successfully.

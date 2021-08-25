@@ -1,12 +1,21 @@
 describe("posts: write, update and delete", () => {
-    it("write post correctly", () => {
-        cy.visit("/login")
+    beforeEach(() => {
+        cy.visit("/")
+        if(cy.contains("LOGOUT")){ 
+            cy.get('.topList > :nth-child(5)').click();
+            cy.get('.topRight > .topList > :nth-child(1) > .link').click();
+        }
+
         // Login
+        cy.visit("/login")
         cy.get('[type="text"]').clear();
         cy.get('[type="text"]').type('test');
         cy.get('[type="password"]').clear();
         cy.get('[type="password"]').type('test');
         cy.get('.loginButton').click();
+    })
+    
+    it("write post correctly", () => {
         // write a post
         cy.get(':nth-child(4) > .link').click();
         cy.get(':nth-child(1) > .writeInput').clear();
@@ -20,13 +29,6 @@ describe("posts: write, update and delete", () => {
     })
 
     it("writing a post should fail", () => {
-        cy.visit("/login")
-        // Login
-        cy.get('[type="text"]').clear();
-        cy.get('[type="text"]').type('test');
-        cy.get('[type="password"]').clear();
-        cy.get('[type="password"]').type('test');
-        cy.get('.loginButton').click();
         // write a post that fails
         cy.get(':nth-child(4) > .link').click();
         cy.get(':nth-child(1) > .writeInput').clear();
@@ -38,13 +40,6 @@ describe("posts: write, update and delete", () => {
     })
 
     it("update post correctly", () => {
-        cy.visit("/login")
-        // Login
-        cy.get('[type="text"]').clear();
-        cy.get('[type="text"]').type('test');
-        cy.get('[type="password"]').clear();
-        cy.get('[type="password"]').type('test');
-        cy.get('.loginButton').click();
         // update a post
         cy.get('.postTitle').contains('test-abc').click();
         cy.get('.fa-edit').click();
@@ -58,13 +53,6 @@ describe("posts: write, update and delete", () => {
     })
 
     it("delete post correctly", () => {
-        cy.visit("/login")
-        // Login
-        cy.get('[type="text"]').clear();
-        cy.get('[type="text"]').type('test');
-        cy.get('[type="password"]').clear();
-        cy.get('[type="password"]').type('test');
-        cy.get('.loginButton').click();
         // delete a post
         cy.get('.postTitle').contains('test-abc').click();
         cy.get('.fa-trash-alt').click();

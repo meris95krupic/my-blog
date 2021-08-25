@@ -1,4 +1,12 @@
 describe("login and register", () => {
+    beforeEach(() => {
+        cy.visit("/")
+        if(cy.contains("LOGOUT")){ 
+            cy.get('.topList > :nth-child(5)').click();
+            cy.get('.topRight > .topList > :nth-child(1) > .link').click();
+        }
+    })
+
     it("login should fail", () => {
         cy.visit("/login")
         cy.get('[type="text"]').clear();
