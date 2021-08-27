@@ -8,7 +8,6 @@ var app = express_1.default();
 var mongoose = require("mongoose");
 var dotenv_1 = __importDefault(require("dotenv"));
 var postRoute = require("./routes/posts");
-var categoryRoute = require("./routes/categories");
 var port = "8000";
 dotenv_1.default.config();
 app.use(express_1.default.json());
@@ -22,7 +21,6 @@ mongoose
     .then(console.log("Connected to MongoDB"))
     .catch(function (err) { return console.log(err); });
 app.use("/api/posts", postRoute);
-app.use("/api/categories", categoryRoute);
 app.listen(port, function () {
-    console.log("Posts-Management is running on port: " + port);
+    console.log("Posts-Services is running on port: " + port);
 });

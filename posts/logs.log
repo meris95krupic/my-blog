@@ -1,0 +1,18 @@
+[2021-08-27T11:25:52.933] [INFO] default - GET /posts started.
+[2021-08-27T11:25:53.000] [INFO] default - GET /posts finished successfully.
+[2021-08-27T11:26:00.075] [INFO] default - GET /posts started.
+[2021-08-27T11:26:00.112] [INFO] default - GET /posts finished successfully.
+[2021-08-27T11:26:04.060] [INFO] default - GET /posts/:id started.
+[2021-08-27T11:26:04.092] [INFO] default - GET /posts/:id finished successfully (id: 60fc87c9ab0f5d48f9ef3fef)
+[2021-08-27T11:26:25.523] [INFO] default - PUT /posts/:id started.
+[2021-08-27T11:26:25.580] [INFO] default - PUT /posts/:id finished successfully (updatedPost.title: Test_1)
+[2021-08-27T11:26:27.168] [INFO] default - GET /posts started.
+[2021-08-27T11:26:27.194] [INFO] default - GET /posts finished successfully.
+[2021-08-27T11:26:32.296] [INFO] default - GET /posts/:id started.
+[2021-08-27T11:26:32.319] [INFO] default - GET /posts/:id finished successfully (id: 6127fadd7e386f411dc283a2)
+[2021-08-27T11:26:48.402] [INFO] default - PUT /posts/:id started.
+[2021-08-27T11:26:48.458] [INFO] default - PUT /posts/:id finished successfully (updatedPost.title: Street)
+[2021-08-27T11:28:19.739] [INFO] default - GET /posts/:id started.
+[2021-08-27T11:28:19.804] [INFO] default - GET /posts/:id finished successfully (id: 6127fadd7e386f411dc283a2)
+[2021-08-27T11:28:24.005] [INFO] default - GET /posts started.
+[2021-08-27T11:28:24.038] [INFO] default - GET /posts finished successfully.

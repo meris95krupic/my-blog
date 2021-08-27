@@ -7,9 +7,8 @@ var express_1 = __importDefault(require("express"));
 var app = express_1.default();
 var mongoose = require("mongoose");
 var dotenv_1 = __importDefault(require("dotenv"));
-var authRoute = require("./routes/auth");
-var userRoute = require("./routes/users");
-var port = "7000";
+var categoryRoute = require("./routes/categories");
+var port = "6000";
 dotenv_1.default.config();
 app.use(express_1.default.json());
 mongoose
@@ -21,8 +20,7 @@ mongoose
 })
     .then(console.log("Connected to MongoDB"))
     .catch(function (err) { return console.log(err); });
-app.use("/api/auth", authRoute);
-app.use("/api/users", userRoute);
+app.use("/api/categories", categoryRoute);
 app.listen(port, function () {
-    console.log("User-Management-Service is running on port: " + port);
+    console.log("Categories-Service is running on port: " + port);
 });

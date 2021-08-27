@@ -43,7 +43,7 @@ var express_1 = __importDefault(require("express"));
 var router = express_1.default.Router();
 var axios_1 = __importDefault(require("axios"));
 var log4js_1 = __importDefault(require("log4js"));
-var apiUrl = 'http://localhost:8000/api';
+var apiUrl = 'http://localhost:6000/api';
 // LOG-Config
 log4js_1.default.configure({
     appenders: { file: { type: 'file', filename: 'logs.log' } },

@@ -3,7 +3,7 @@ let router = express.Router();
 import axios from 'axios';
 import log4js from"log4js";
 
-const apiUrl = 'http://localhost:8000/api'
+const apiUrl = 'http://localhost:6000/api'
 
 // LOG-Config
 log4js.configure({

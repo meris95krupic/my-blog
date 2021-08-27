@@ -9,7 +9,7 @@ log4js.configure({
   appenders: { file: { type: 'file', filename: 'logs.log' } },
   categories: { default: { appenders: ['file'], level: 'info' } }
 });
-const logger = log4js.getLogger()
+const logger = log4js.getLogger() 
 
 //CREATE POST
 router.post("/", async (req:Request, res:Response) => {
