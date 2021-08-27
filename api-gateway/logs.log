@@ -1,0 +1,38 @@
+[2021-08-27T10:15:51.466] [INFO] default - GET /categories started.
+[2021-08-27T10:15:51.502] [INFO] default - GET /posts started.
+[2021-08-27T10:15:51.532] [INFO] default - GET /categories finished successfully.
+[2021-08-27T10:15:51.566] [INFO] default - GET /posts finished successfully.
+[2021-08-27T10:16:02.190] [INFO] default - POST /login started (username: test)
+[2021-08-27T10:16:02.345] [INFO] default - POST /login finished successfully.
+[2021-08-27T10:16:02.387] [INFO] default - GET /categories started.
+[2021-08-27T10:16:02.393] [INFO] default - GET /posts started.
+[2021-08-27T10:16:02.415] [INFO] default - GET /categories finished successfully.
+[2021-08-27T10:16:02.419] [INFO] default - GET /posts finished successfully.
+[2021-08-27T10:16:08.261] [INFO] default - GET /posts/:id started.
+[2021-08-27T10:16:08.262] [INFO] default - GET /categories started.
+[2021-08-27T10:16:08.296] [INFO] default - GET /posts/:id finished successfully (id: 6127eeadc5794417c3c31fac)
+[2021-08-27T10:16:08.297] [INFO] default - GET /categories finished successfully.
+[2021-08-27T10:16:15.695] [INFO] default - GET /categories started.
+[2021-08-27T10:16:15.697] [INFO] default - GET /posts started.
+[2021-08-27T10:16:15.725] [INFO] default - GET /categories finished successfully.
+[2021-08-27T10:16:15.730] [INFO] default - GET /posts finished successfully.
+[2021-08-27T10:16:19.805] [INFO] default - GET /posts/:id started.
+[2021-08-27T10:16:19.806] [INFO] default - GET /categories started.
+[2021-08-27T10:16:19.833] [INFO] default - GET /posts/:id finished successfully (id: 6127fadd7e386f411dc283a2)
+[2021-08-27T10:16:19.865] [INFO] default - GET /categories finished successfully.
+[2021-08-27T10:16:31.046] [INFO] default - PUT /posts/:id started.
+[2021-08-27T10:16:31.127] [INFO] default - PUT /posts/:id finished successfully.
+[2021-08-27T10:16:32.521] [INFO] default - GET /categories started.
+[2021-08-27T10:16:32.524] [INFO] default - GET /posts started.
+[2021-08-27T10:16:32.550] [INFO] default - GET /categories finished successfully.
+[2021-08-27T10:16:32.555] [INFO] default - GET /posts finished successfully.
+[2021-08-27T10:16:43.027] [INFO] default - GET /posts/:id started.
+[2021-08-27T10:16:43.029] [INFO] default - GET /categories started.
+[2021-08-27T10:16:43.062] [INFO] default - GET /posts/:id finished successfully (id: 60fc87c9ab0f5d48f9ef3fef)
+[2021-08-27T10:16:43.065] [INFO] default - GET /categories finished successfully.
+[2021-08-27T10:16:49.197] [INFO] default - PUT /posts/:id started.
+[2021-08-27T10:16:49.254] [INFO] default - PUT /posts/:id finished successfully.
+[2021-08-27T10:16:50.666] [INFO] default - GET /categories started.
+[2021-08-27T10:16:50.668] [INFO] default - GET /posts started.
+[2021-08-27T10:16:50.700] [INFO] default - GET /categories finished successfully.
+[2021-08-27T10:16:50.704] [INFO] default - GET /posts finished successfully.
