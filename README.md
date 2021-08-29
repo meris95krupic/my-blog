@@ -9,15 +9,17 @@ Die Anwendung ist eine in react und node geschriebene Blog-Webseite. Die Anwendu
      style="margin-left: 10px; margin-right: 10px;" />
 
 #### Architektur (SOA):
-<img src="Markdown_Imgs/soaMyBlog.png"
-     style="margin-left: 10px; margin-right: 10px; float: right; width: 220px; height: 270px" />
 Die serviceorientierte Architektur (SOA) der Anwendung setzt sich aus folgenden Services zusammen:
 - client: der Client ist das Frontend der Anwendung, welcher auf dem Port 3000 läuft (also http://localhost:3000).
 - api-gateway: der API-Gateway ist eine Middelware in der Anwendung, es dient als eine Schicht zwischen dem Frontend und den Backend Services. Der API-Gateway läuft auf dem Port 5000 (also http://localhost:5000).
 - user-management: der User-Management-Service verwaltet alle Benutzerdaten und stellt entsprechende Schnittstellen zur Verfügung die mit Benutzerdaten der Anwendung zu tun haben. Der Service läuft auf dem Port 7000 (also http://localhost:7000).
 - posts-management: der Posts-Management-Service stellt Schnittstellen zur Verfügung, die in irgendeiner Art mit Posts, oder mit Kategorien zu tun haben. Der Service läuft auf dem Port 8000 (also http://localhost:8000).
-<img src="Markdown_Imgs/Screenshot_myBlog_Verzeichnis.png"
+
+<img src="Markdown_Imgs/soaMyBlog.png"
+     style="margin-left: 10px; margin-right: 10px; float: right; width: 220px; height: 270px" />
+<img src="Markdown_Imgs/Screenshot_myBlog_Verzeichnis_soa.png"
      style="margin-left: 10px; margin-right: 10px; float: right; width: 200px; height: 600px" />
+
 Am Beispiel der Ordnerstruktur des Services user-management kann man erkennen, das jeder Service in TypeScript geschrieben ist, im Ordner tests die entsprechenden Test-Scripte aufbewahrt und eine eigene Log-Datei ("logs.log") besitzen, wo die Aktivitäten der Anwendung protokolliert werden.
 
 #### Backend:
@@ -55,6 +57,7 @@ Die Webseite des Frontends setzt sich aus folgenden Unterseiten zusammen:
 - Settings,
 - Single,
 - Write.
+
 Um Funktionalitäten der Webseite nutzen zu können, muss zu erst ein registrierter undeingeloggter Benutzer sein, somit ist die erste Anlaufstelle die Register- und Login-Seite,welche durch Ihren Namen selbsterklärend sind. Auf der Unterseite "Home" kann manPosts aller Benutzer sehen, was somit auch die Startseite der Anwendung darstellt. Fallsman nähere Informationen zum eingeloggten Benutzer sehen und bearbeiten möchte, sokann man dies unter den "Settings" erledigen. Die Unterseite "Single" geht auf wenn maneinen Post öffnet, dabei kann man den vollständigen Post sehen, bearbeiten und löschen.Wenn man einen neuen Post verfassen möchte, dann kann man dieses Formular auf derUnterseite "Write" umsetzen.
 
 <img src="Markdown_Imgs/feComponents.png"
